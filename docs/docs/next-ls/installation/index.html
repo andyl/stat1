@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[18px] scroll-p-[120px]">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Installation | elixir-tools
+    </title>
+
+    <link rel="stylesheet" href="/css/site.css">
+
+  </head>
+
+  <body class="font-sans dark:bg-gradient-to-br dark:from-zinc-950 dark:via-zinc-900 dark:bg-zinc-900 dark:text-white">
+    <div id="the-universe">
+      <header class="top-0 sticky z-10 w-full bg-white dark:bg-zinc-900 mx-auto p-2 border-b-2 border-zinc-950 dark:border-white">
+        <section class="container flex justify-between items-center mx-auto py-2">
+          <div class="flex items-center space-x-2">
+            <a href="/" class="hover:underline">
+              <img src="/elixir-tools-no-background.png" class="h-8 w-8">
+
+            </a>
+
+            <h1 class="font-semibold text-gray-800 dark:text-white text-base lg:text-2xl ">
+              <a href="/" class="no-underline hover:underline">
+                elixir-tools
+              </a>
+
+              <span>/</span>
+              <a href="/docs/next-ls/quickstart" class="no-underline hover:underline">
+                docs / next-ls
+              </a>
+
+            </h1>
+
+          </div>
+
+          <div class="flex flex-col-reverse md:flex-row items-center gap-2">
+            <a class="github-button" href="https://github.com/elixir-tools/next-ls" data-size="large" data-show-count="true" aria-label="Star elixir-tools/next-ls on GitHub">
+              Star
+            </a>
+
+            <button class="block lg:hidden" type="button" onclick="sidebar.classList.toggle('hidden')">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5">
+
+              </svg>
+
+            </button>
+
+          </div>
+
+        </section>
+
+      </header>
+
+      <div class="h-full">
+        <div class="flex h-full">
+  <div id="sidebar" class="hidden z-20 bg-white dark:bg-zinc-950 lg:block fixed px-4 w-full lg:w-64 border-r border-zinc-950 dark:border-white pt-4 h-full overflow-y-auto max-h-[calc(100%-110px)]">
+    <aside>
+      <h3 class="font-fancy text-sm font-normal text-zinc-400 border-l-4 mb-2 border-transparent pl-1">
+        Getting Started
+      </h3>
+      <ul class="list-none space-y-1">
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/quickstart">
+            Quickstart
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-normal border-gold-400" href="/docs/next-ls/installation">
+            Installation
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/editors">
+            Editors
+          </a>
+
+        </li>
+
+      </ul>
+      <h3 class="font-fancy text-sm font-normal text-zinc-400 border-l-4 mb-2 border-transparent pl-1">
+        Features
+      </h3>
+      <ul class="list-none space-y-1">
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/compiler-diagnostics">
+            Compiler Diagnostics
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/go-to-definition">
+            Go To Definition
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/completions">
+            Completions
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/find-references">
+            Find References
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/formatting">
+            Formatting
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/hover">
+            Hover Documentation
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/document-symbols">
+            Document Symbols
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/workspace-symbols">
+            Workspace Symbols
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/workspace-folders">
+            Workspace Folders
+          </a>
+
+        </li>
+
+      </ul>
+      <h3 class="font-fancy text-sm font-normal text-zinc-400 border-l-4 mb-2 border-transparent pl-1">
+        Extensions
+      </h3>
+      <ul class="list-none space-y-1">
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/credo">
+            Credo
+          </a>
+
+        </li>
+
+      </ul>
+      <h3 class="font-fancy text-sm font-normal text-zinc-400 border-l-4 mb-2 border-transparent pl-1">
+        Help
+      </h3>
+      <ul class="list-none space-y-1">
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/troubleshooting">
+            Troubleshooting
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="border-l-4 pl-1 no-underline font-thin border-transparent" href="/docs/next-ls/faq">
+            FAQ
+          </a>
+
+        </li>
+
+      </ul>
+
+    </aside>
+
+  </div>
+
+  <div class="hidden lg:block px-4 min-w-[16rem]"></div>
+
+  <div class="w-full pt-8 lg:px-2 flex-1 overflow-auto">
+    <div class="prose dark:prose-invert container mx-auto px-2">
+      <article class="mx-auto max-w-4xl mb-8">
+  <div class="flex items-center justify-between">
+    <h1 class="font-bold text-2xl">
+      Installation
+    </h1>
+
+  </div>
+
+  <hr class="mt-4 mb-8">
+  <article class="prose dark:prose-invert mb-16">
+    <p>If you are using one of the first party elixir-tools editor extensions/plugins, Next LS will be auto-installed and updated on your behalf, no extra work needed!</p>
+<p>If you like to download and manage tools yourself, there are several different ways to acquire Next LS.</p>
+<h2><a href="#editor-extension" aria-hidden="true" class="anchor" id="editor-extension"></a>Editor Extension</h2>
+<p><a href="https://github.com/elixir-tools/elixir-tools.vscode">elixir-tools.vscode</a> and <a href="https://github.com/elixir-tools/elixir-tools.nvim">elixir-tools.nvim</a> are first party editor extensions and will manage the Next LS installation for you. See their respective documentation for more information.</p>
+<h2><a href="#homebrew" aria-hidden="true" class="anchor" id="homebrew"></a>Homebrew</h2>
+<p>Next LS can be easily installed using our first party Homebrew Tap.</p>
+<pre class="autumn highlight" style="background-color: #1F1F28; color: #DCD7BA;"><code class="language-sh" translate="no"><span class="function" style="color: #7E9CD8;">brew</span> install elixir-tools&#x2f;tap&#x2f;next-ls
+</code></pre>
+<h2><a href="#nix" aria-hidden="true" class="anchor" id="nix"></a>Nix</h2>
+<p>Next LS can be easily installed using our <a href="https://nixos.org/">Nix</a> flake.</p>
+<pre class="autumn highlight" style="background-color: #1F1F28; color: #DCD7BA;"><code class="language-sh" translate="no"><span class="function" style="color: #7E9CD8;">nix</span> profile install github:elixir-tools&#x2f;next-ls
+</code></pre>
+<h3><a href="#notes" aria-hidden="true" class="anchor" id="notes"></a>Notes</h3>
+<p>If you run into a <code>warning: ignoring untrusted substituter 'https://elixir-tools.cachix.org', you are not a trusted user.</code> message, make sure your user is added to the <a href="https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-trusted-users"><code>trusted-users</code></a> list.</p>
+<h2><a href="#masonnvim" aria-hidden="true" class="anchor" id="masonnvim"></a>Mason.nvim</h2>
+<p>If you are a <a href="https://github.com/williamboman/mason.nvim">Mason.nvim</a> user, you can install and update Next LS easily with Mason.</p>
+<pre class="autumn highlight" style="background-color: #1F1F28; color: #DCD7BA;"><code class="language-vim" translate="no"><span class="punctuation" style="color: #9CABCA;">:</span><span class="function macro" style="color: #E46876;">MasonInstall</span> nextls
+</code></pre>
+<h2><a href="#github-releases" aria-hidden="true" class="anchor" id="github-releases"></a>GitHub Releases</h2>
+<p>If you like to download Next LS straight from the source, you can do so on our GitHub releases.</p>
+<p>Releases are named for the OS and CPU for which they run on, so make sure you download the right one, and you can rename it once it is downloaded.</p>
+<p>If you use the <a href="https://cli.github.com/">gh</a> CLI, you can easily download release artifacts like so:</p>
+<pre class="autumn highlight" style="background-color: #1F1F28; color: #DCD7BA;"><code class="language-sh" translate="no"><span class="function" style="color: #7E9CD8;">gh</span> release download v0.14.2 \
+  <span class="constant" style="color: #FFA066;">--pattern</span> next_ls_linux_amd64 \
+  <span class="constant" style="color: #FFA066;">--output</span> ~&#x2f;.bin&#x2f;nextls \
+  <span class="constant" style="color: #FFA066;">--clobber</span> \
+  <span class="constant" style="color: #FFA066;">--repo</span> elixir-tools&#x2f;next-ls
+
+<span class="function" style="color: #7E9CD8;">chmod</span> +x ~&#x2f;.bin&#x2f;nextls
+</code></pre>
+
+  </article>
+
+</article>
+
+
+    </div>
+
+    <div class="lg:px-4">
+<footer id="footer" class="@container text-zinc-950 dark:text-white py-4 border-t-2 border-zinc-950 dark:border-white z-10 w-full">
+  <div class="container mx-auto px-2 grid grid-cols-1 @sm:grid-cols-2 @lg:grid-cols-3 @5xl:grid-cols-4 gap-x-16 gap-y-8">
+    <div>
+      <h4 class="text-lg font-medium mb-2">Tools</h4>
+
+      <ul>
+        <li>
+          <a href="/docs/next-ls/quickstart" class="text-zinc-950 dark:text-white hover:underline">
+            Next LS
+          </a>
+
+        </li>
+        <li>
+          <a href="https://github.com/elixir-tools/credo-language-server" class="text-zinc-950 dark:text-white hover:underline">
+            Credo Language Server
+          </a>
+
+        </li>
+        <li>
+          <a href="https://github.com/elixir-tools/elixir-tools.nvim" class="text-zinc-950 dark:text-white hover:underline">
+            elixir-tools.nvim
+          </a>
+
+        </li>
+        <li>
+          <a href="https://github.com/elixir-tools/elixir-tools.vscode" class="text-zinc-950 dark:text-white hover:underline">
+            elixir-tools.vscode
+          </a>
+
+        </li>
+        <li>
+          <a href="https://github.com/elixir-tools/gen_lsp" class="text-zinc-950 dark:text-white hover:underline">
+            GenLSP
+          </a>
+
+        </li>
+        <li>
+          <a href="https://github.com/elixir-tools/tableau" class="text-zinc-950 dark:text-white hover:underline">
+            Tableau
+          </a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div>
+      <h4 class="text-lg font-medium mb-2">Organization</h4>
+
+      <ul>
+        <li>
+          <a href="https://www.elixir-tools.dev" class="text-zinc-950 dark:text-white hover:underline">
+            Website
+          </a>
+
+        </li>
+
+        <li>
+          <a href="https://github.com/elixir-tools" class="text-zinc-950 dark:text-white hover:underline">
+            GitHub
+          </a>
+
+        </li>
+
+        <li>
+          <a href="https://twitter.com/elixir_tools" class="text-zinc-950 dark:text-white hover:underline">
+            Twitter
+          </a>
+
+        </li>
+
+        <li>
+          <a href="https://discord.gg/6XdGnxVA2A" class="text-zinc-950 dark:text-white hover:underline">
+            Discord
+          </a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div>
+      <h4 class="text-lg font-medium mb-2">Team</h4>
+
+      <ul>
+        <li>
+          <a href="https://github.com/sponsors/mhanberg" class="text-zinc-950 dark:text-white hover:underline">
+            Mitchell Hanberg
+          </a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div>
+      <h4 class="text-lg font-medium mb-2">Site</h4>
+
+      <ul>
+        <li>
+          <a href="/feed.xml" class="text-zinc-950 dark:text-white hover:underline">
+            RSS
+          </a>
+
+        </li>
+
+        <li>
+          <a href="https://github.com/elixir-tools/elixir-tools.dev" class="text-zinc-950 dark:text-white hover:underline">
+            Source Code
+          </a>
+
+        </li>
+
+        <li class="italic text-sm mt-2">
+          <span>Built with</span>
+
+          <a class="underline" href="https://github.com/elixir-tools/tableau">Tableau,</a>
+
+          <a class="underline" href="https://tailwindcss.com">TailwindCSS,</a>
+
+           and
+          <span class="text-red-500">♥</span>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+    </div>
+
+  </div>
+
+  <aside class="hidden xl:block min-w-[12rem] px-4 pt-4 h-full">
+    <div class="fixed">
+      <h3 class="font-fancy text-sm font-normal text-zinc-400 mb-2">
+        On this page
+      </h3>
+
+      <ul class="list-none space-y-1">
+        <li class="m-0">
+          <a class="no-underline font-thin" href="#editor-extension">
+            Editor Extension
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="no-underline font-thin" href="#homebrew">
+            Homebrew
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="no-underline font-thin" href="#nix">
+            Nix
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="no-underline font-thin" href="#masonnvim">
+            Mason.nvim
+          </a>
+
+        </li>
+        <li class="m-0">
+          <a class="no-underline font-thin" href="#github-releases">
+            GitHub Releases
+          </a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </aside>
+
+</div>
+
+
+      </div>
+
+<script>
+  function log(message) {
+    if (true) {
+      console.log(`[web_dev_utils] ${message}`)
+    }
+  }
+  function connect() {
+    try {
+      window.socket = new WebSocket('wss://' + location.host + '/ws');
+
+      window.socket.onmessage = function(e) {
+        if (e.data === "reload") {
+          log("reloading!");
+          location.reload();
+        } else if (e.data === "subscribed") {
+          log("connected and subscribed!");
+        }
+      }
+
+      window.socket.onopen = () => {
+        waitForConnection(() => {
+          log("sending 'subscribe' message");
+          window.socket.send("subscribe")
+        }
+        , 300);
+      };
+
+      window.socket.onclose = () => {
+        setTimeout(() => connect(), 500);
+      };
+
+      function waitForConnection(callback, interval) {
+        log("waiting for connection!")
+        if (window.socket.readyState === 1) {
+          callback();
+        } else {
+          log("setting a timeout")
+          setTimeout(() => waitForConnection(callback, interval), interval);
+        }
+      }
+    } catch (e) {
+      log(e);
+      setTimeout(() => connect(), 500);
+    }
+  }
+
+  log("about to connect");
+  connect();
+</script>
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    </div>
+
+  </body>
+
+</html>
+

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[18px] scroll-p-[120px]">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      The 2023 elixir-tools Update (Vol. 5) | elixir-tools
+    </title>
+
+    <link rel="stylesheet" href="/css/site.css">
+
+  </head>
+
+  <body class="font-sans dark:bg-gradient-to-br dark:from-zinc-950 dark:via-zinc-900 dark:bg-zinc-900 dark:text-white">
+    <div id="the-universe">
+      <header class="top-0 sticky z-10 w-full bg-white dark:bg-zinc-900 mx-auto p-2 border-b-2 border-zinc-950 dark:border-white">
+        <section class="container flex justify-between items-center mx-auto py-2">
+          <div class="flex items-center space-x-2">
+            <a href="/" class="hover:underline">
+              <img src="/elixir-tools-no-background.png" class="h-8 w-8">
+
+            </a>
+
+            <h1 class="font-semibold text-gray-800 dark:text-white text-base lg:text-2xl ">
+              <a href="/" class="no-underline hover:underline">
+                elixir-tools
+              </a>
+
+
+            </h1>
+
+          </div>
+
+          <div class="flex flex-col-reverse md:flex-row items-center gap-2">
+
+          </div>
+
+        </section>
+
+      </header>
+
+      <div class="h-full">
+        <main class="container mx-auto px-2">
+  <article class="mx-auto max-w-4xl mb-8 pt-8">
+    <div class="flex items-center justify-between">
+      <h1 class="font-bold text-2xl">
+        The 2023 elixir-tools Update (Vol. 5)
+      </h1>
+
+      <div>
+        December 26, 2023
+      </div>
+
+    </div>
+
+    <hr class="mt-4 mb-8">
+    <article class="prose dark:prose-invert">
+      <p>elixir-tools has had an incredible first year!</p>
+<p>The amount of support from the community has far exceeded my expectations, and I couldn't be happier. I wanted to wrap up the year sharing the progress that has been made and thank all of our wonderful contributors and sponsors.</p>
+<p>There is also a small announcement/surprise at the end 😉.</p>
+<h2><a href="#next-ls" aria-hidden="true" class="anchor" id="next-ls"></a>Next LS</h2>
+<p><a href="https://github.com/elixir-tools/next-ls">Next LS</a> is the main project from elixir-tools, so the star child gets to go first 😄.</p>
+<ul>
+<li>11,525 total downloads
+<ul>
+<li>2,332 from hex.pm (it switched to GitHub downloads at v0.8)</li>
+<li>9,193 from GitHub releases</li>
+<li>2,299 downloads of the latest release (v0.15.0)</li>
+</ul>
+</li>
+<li>55 releases</li>
+<li>
+<table>
+<thead>
+<tr>
+<th>20 Contributors</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/NJichev">NJichev</a></td>
+<td><a href="https://github.com/RoboZoom">RoboZoom</a></td>
+<td><a href="https://github.com/aayushmau5">aayushmau5</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/akirak">akirak</a></td>
+<td><a href="https://github.com/biletskyy">biletskyy</a></td>
+<td><a href="https://github.com/crbelaus">crbelaus</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/dvic">dvic</a></td>
+<td><a href="https://github.com/fhunleth">fhunleth</a></td>
+<td><a href="https://github.com/goofansu">goofansu</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/ismaelga">ismaelga</a></td>
+<td><a href="https://github.com/jamesvl">jamesvl</a></td>
+<td><a href="https://github.com/jjcarstens">jjcarstens</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jozuas">jozuas</a></td>
+<td><a href="https://github.com/lud-wj">lud-wj</a></td>
+<td><a href="https://github.com/mikayla-maki">mikayla-maki</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/philipgiuliani">philipgiuliani</a></td>
+<td><a href="https://github.com/shanesveller">shanesveller</a></td>
+<td><a href="https://github.com/stefanluptak">stefanluptak</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/wkirschbaum">wkirschbaum</a></td>
+<td><a href="https://github.com/zachallaun">zachallaun</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p>As of writing, Next LS supports the following features:</p>
+<ul>
+<li>Compiler Diagnostics</li>
+<li>Go To Definition</li>
+<li>Completions</li>
+<li>Find References</li>
+<li>Formatting</li>
+<li>Hover Documentation</li>
+<li>Document Symbols</li>
+<li>Workspace Symbols</li>
+<li>Workspace Folders</li>
+<li>Credo (Extension)</li>
+</ul>
+<p>Next LS is also supported in the following editors:</p>
+<ul>
+<li>Emacs</li>
+<li>Helix</li>
+<li>Neovim (<a href="https://github.com/elixir-tools/elixir-tools.nvim">elixir-tools.nvim</a>)</li>
+<li>Vim</li>
+<li>Visual Studio Code (<a href="https://github.com/elixir-tools/elixir-tools.vscode">elixir-tools.vscode</a>)</li>
+<li>Zed</li>
+</ul>
+<h2><a href="#tableau" aria-hidden="true" class="anchor" id="tableau"></a>Tableau</h2>
+<p><a href="https://github.com/elixir-tools/tableau">Tableau</a> is the static site generator that powers this very website!</p>
+<p>Tableau has started to become <em>very</em> feature complete this year, supporting most of the essentials you'd expect from any static site generator:</p>
+<ul>
+<li><input type="checkbox" disabled="" checked="" /> Good code and browser reloading on file change</li>
+<li><input type="checkbox" disabled="" checked="" /> Easy to use the current Node.js JS/CSS tooling</li>
+<li><input type="checkbox" disabled="" checked="" /> Extensions</li>
+<li><input type="checkbox" disabled="" /> Ability to work with &quot;data&quot; (either dynamic data or static files)
+<ul>
+<li><input type="checkbox" disabled="" checked="" /> YAML Files</li>
+<li><input type="checkbox" disabled="" checked="" /> Elixir scripts (.exs files)</li>
+</ul>
+</li>
+<li><input type="checkbox" disabled="" /> Handles stuff like Posts, RSS, sitemap, SEO.
+<ul>
+<li><input type="checkbox" disabled="" checked="" /> Posts</li>
+<li><input type="checkbox" disabled="" checked="" /> Pages</li>
+<li><input type="checkbox" disabled="" checked="" /> RSS</li>
+<li><input type="checkbox" disabled="" checked="" /> Sitemap</li>
+<li><input type="checkbox" disabled="" /> SEO</li>
+</ul>
+</li>
+</ul>
+<p>Tableau is also very easy to use with any templating language you want! This website is built with <a href="https://github.com/mhanberg/temple">Temple</a>, but you can easily use <a href="https://github.com/mhanberg/tableau_demo_eex">EEx</a> or even <a href="https://github.com/mhanberg/tableau_demo_heex">HEEx</a>.</p>
+<p>If you are migrating from a Jekyll site, you might take advantage of the <a href="https://hex.pm/packages/solid">solid</a> library for Liquid templates.</p>
+<p>I'd also like to give a shoutout to <a href="https://github.com/leandrocp">Leandro Pereira</a> for the wonderful <a href="https://github.com/leandrocp/mdex">MDEx</a> library. This markdown library uses a NIF to a rust library that supports the full CommonMark spec and the GitHub Flavored Markdown spec. This is important as it allows an easier migration for blogs and websites built in other frameworks like Jekyll.</p>
+<p>Also, a feature that I particularly like, is that it supports syntax highlighting with <a href="https://tree-sitter.github.io/tree-sitter/">tree-sitter</a>, which means we immediately get support for almost every syntax that exists, as well as tons of colorschemes that come from the <a href="https://github.com/helix-editor/helix">Helix</a> text editor.</p>
+<p>Thank you Leandro!</p>
+<h2><a href="#web_dev_utils" aria-hidden="true" class="anchor" id="web_dev_utils"></a>web_dev_utils</h2>
+<p>One side effect from building out Tableau, is that I had copy pasted the same utilities into an app for the third time, so I decided to finally make it a package.</p>
+<p><a href="https://github.com/elixir-tools/web_dev_utils">web_dev_utils</a> is a small package that provides modules for adding asset watchers, file watching, and browser live reloading to your library or framework.</p>
+<p>This couldn't have been possible without <a href="https://github.com/phoenixframework/phoenix">Phoenix</a> laying the foundation, so thank you Phoenix!</p>
+<h2><a href="#spitfire" aria-hidden="true" class="anchor" id="spitfire"></a>Spitfire</h2>
+<p>Here's the surprise 🎉.</p>
+<p>I am currently building a new error tolerant parser for Elixir that I am code naming &quot;Spitfire&quot;.</p>
+<p>The driving factor behind this parser is to make it possible to &quot;successfully&quot; parse malformed or incomplete Elixir code, which will allow us to properly query the &quot;environment&quot; of the cursor in a text editor.</p>
+<p>This is currently possible for proper/correct Elixir code, but not incomplete code (which occurs more often than complete code when you are in your text editor). This information will eventually allow editor tooling like Next LS to provide accurate and context aware completion candidates, among other features.</p>
+<p>This work has been discussed in <a href="https://github.com/elixir-lang/elixir/issues/12645#issuecomment-1837629952">elixir-lang/elixir#12645</a>. You can follow along there or in the Spitfire repo <a href="https://github.com/elixir-tools/spitfire">elixir-tools/spitfire</a> for updates!</p>
+<h2><a href="#community" aria-hidden="true" class="anchor" id="community"></a>Community</h2>
+<h3><a href="#discord" aria-hidden="true" class="anchor" id="discord"></a>Discord</h3>
+<p>The discord server keeps growing!</p>
+<p>We currently have 195 members and are getting more every day, come <a href="https://discord.gg/6XdGnxVA2A">join</a> the party!</p>
+<h2><a href="#thank-you" aria-hidden="true" class="anchor" id="thank-you"></a>Thank you</h2>
+<p>I'd like to give a huge shout out to all of the contributors, bug reporters, and to all of my GitHub sponsors! Without the support of all of you, none of this would be possible.</p>
+<table>
+<thead>
+<tr>
+<th>Sponsors</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/akoutmos">akoutmos</a></td>
+<td><a href="https://github.com/andrepaes">andrepaes</a></td>
+<td><a href="https://github.com/baldwindavid">baldwindavid</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/brettwise">brettwise</a></td>
+<td><a href="https://github.com/chriscrabtree">chriscrabtree</a></td>
+<td><a href="https://github.com/cigrainger">cigrainger</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/clark-lindsay">clark-lindsay</a></td>
+<td><a href="https://github.com/dbernheisel">dbernheisel</a></td>
+<td><a href="https://github.com/dkarter">dkarter</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/dvic">dvic</a></td>
+<td><a href="https://github.com/dyackson">dyackson</a></td>
+<td><a href="https://github.com/ethangunderson">ethangunderson</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/getsupered">getsupered</a></td>
+<td><a href="https://github.com/jlgeering">jlgeering</a></td>
+<td><a href="https://github.com/jwright">jwright</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/kgautreaux">kgautreaux</a></td>
+<td><a href="https://github.com/leonqadirie">leonqadirie</a></td>
+<td><a href="https://github.com/mikl">mikl</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Nezteb">Nezteb</a></td>
+<td><a href="https://github.com/NFIBrokerage">NFIBrokerage</a></td>
+<td><a href="https://github.com/oestrich">oestrich</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/PJUllrich">PJUllrich</a></td>
+<td><a href="https://github.com/qdentity">qdentity</a></td>
+<td><a href="https://github.com/RudolfMan">RudolfMan</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/sb8244">sb8244</a></td>
+<td><a href="https://github.com/shenaor">shenaor</a></td>
+<td><a href="https://github.com/simon-wolf">simon-wolf</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/sorenone">sorenone</a></td>
+<td><a href="https://github.com/sorentwo">sorentwo</a></td>
+<td><a href="https://github.com/v1d3rm3">v1d3rm3</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/znorris">znorris</a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2><a href="#how-to-get-involved" aria-hidden="true" class="anchor" id="how-to-get-involved"></a>How to get involved</h2>
+<p>If you'd like to get involved with elixir-tools, there are several ways:</p>
+<ul>
+<li>Contribute to the project via code on <a href="https://github.com/elixir-tools">GitHub</a></li>
+<li>Contribute to the community via <a href="https://discord.gg/6XdGnxVA2A">Discord</a> or <a href="https://github.com/orgs/elixir-tools/discussions">GitHub</a></li>
+<li>Contribute financially via <a href="https://github.com/sponsors/mhanberg">GitHub Sponsors</a></li>
+</ul>
+
+    </article>
+
+  </article>
+
+</main>
+
+
+      </div>
+
+<footer id="footer" class="@container text-zinc-950 dark:text-white py-4 border-t-2 border-zinc-950 dark:border-white z-10 w-full">
+  <div class="container mx-auto px-2 grid grid-cols-1 @sm:grid-cols-2 @lg:grid-cols-3 @5xl:grid-cols-4 gap-x-16 gap-y-8">
+    <div>
+      <h4 class="text-lg font-medium mb-2">Tools</h4>
+
+      <ul>
+        <li>
+          <a href="/docs/next-ls/quickstart" class="text-zinc-950 dark:text-white hover:underline">
+            Next LS
+          </a>
+
+        </li>
+        <li>
+          <a href="https://github.com/elixir-tools/credo-language-server" class="text-zinc-950 dark:text-white hover:underline">
+            Credo Language Server
+          </a>
+
+        </li>
+        <li>
+          <a href="https://github.com/elixir-tools/elixir-tools.nvim" class="text-zinc-950 dark:text-white hover:underline">
+            elixir-tools.nvim
+          </a>
+
+        </li>
+        <li>
+          <a href="https://github.com/elixir-tools/elixir-tools.vscode" class="text-zinc-950 dark:text-white hover:underline">
+            elixir-tools.vscode
+          </a>
+
+        </li>
+        <li>
+          <a href="https://github.com/elixir-tools/gen_lsp" class="text-zinc-950 dark:text-white hover:underline">
+            GenLSP
+          </a>
+
+        </li>
+        <li>
+          <a href="https://github.com/elixir-tools/tableau" class="text-zinc-950 dark:text-white hover:underline">
+            Tableau
+          </a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div>
+      <h4 class="text-lg font-medium mb-2">Organization</h4>
+
+      <ul>
+        <li>
+          <a href="https://www.elixir-tools.dev" class="text-zinc-950 dark:text-white hover:underline">
+            Website
+          </a>
+
+        </li>
+
+        <li>
+          <a href="https://github.com/elixir-tools" class="text-zinc-950 dark:text-white hover:underline">
+            GitHub
+          </a>
+
+        </li>
+
+        <li>
+          <a href="https://twitter.com/elixir_tools" class="text-zinc-950 dark:text-white hover:underline">
+            Twitter
+          </a>
+
+        </li>
+
+        <li>
+          <a href="https://discord.gg/6XdGnxVA2A" class="text-zinc-950 dark:text-white hover:underline">
+            Discord
+          </a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div>
+      <h4 class="text-lg font-medium mb-2">Team</h4>
+
+      <ul>
+        <li>
+          <a href="https://github.com/sponsors/mhanberg" class="text-zinc-950 dark:text-white hover:underline">
+            Mitchell Hanberg
+          </a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div>
+      <h4 class="text-lg font-medium mb-2">Site</h4>
+
+      <ul>
+        <li>
+          <a href="/feed.xml" class="text-zinc-950 dark:text-white hover:underline">
+            RSS
+          </a>
+
+        </li>
+
+        <li>
+          <a href="https://github.com/elixir-tools/elixir-tools.dev" class="text-zinc-950 dark:text-white hover:underline">
+            Source Code
+          </a>
+
+        </li>
+
+        <li class="italic text-sm mt-2">
+          <span>Built with</span>
+
+          <a class="underline" href="https://github.com/elixir-tools/tableau">Tableau,</a>
+
+          <a class="underline" href="https://tailwindcss.com">TailwindCSS,</a>
+
+           and
+          <span class="text-red-500">♥</span>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<script>
+  function log(message) {
+    if (true) {
+      console.log(`[web_dev_utils] ${message}`)
+    }
+  }
+  function connect() {
+    try {
+      window.socket = new WebSocket('wss://' + location.host + '/ws');
+
+      window.socket.onmessage = function(e) {
+        if (e.data === "reload") {
+          log("reloading!");
+          location.reload();
+        } else if (e.data === "subscribed") {
+          log("connected and subscribed!");
+        }
+      }
+
+      window.socket.onopen = () => {
+        waitForConnection(() => {
+          log("sending 'subscribe' message");
+          window.socket.send("subscribe")
+        }
+        , 300);
+      };
+
+      window.socket.onclose = () => {
+        setTimeout(() => connect(), 500);
+      };
+
+      function waitForConnection(callback, interval) {
+        log("waiting for connection!")
+        if (window.socket.readyState === 1) {
+          callback();
+        } else {
+          log("setting a timeout")
+          setTimeout(() => waitForConnection(callback, interval), interval);
+        }
+      }
+    } catch (e) {
+      log(e);
+      setTimeout(() => connect(), 500);
+    }
+  }
+
+  log("about to connect");
+  connect();
+</script>
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    </div>
+
+  </body>
+
+</html>
+

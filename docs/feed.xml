@@ -1,0 +1,831 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <atom:link href="http://localhost:4999/feed.xml" rel="self" type="application/rss+xml" />
+  <title>elixir-tools</title>
+  <link>http://localhost:4999</link>
+  <description>The best Elixir dev tooling that has ever existed</description>
+  <language>en-us</language>
+  <generator>Tableau v0.12.0</generator>
+    <item>
+       <title>The 2023 elixir-tools Update (Vol. 5)</title>
+       <link>https://http://localhost:4999/news/the-2023-elixir-tools-update-vol-5</link>
+       <pubDate>Tue, 26 Dec 2023 01:00:00 EST</pubDate>
+       <guid>http://http://localhost:4999/news/the-2023-elixir-tools-update-vol-5</guid>
+       <description><![CDATA[ <p>elixir-tools has had an incredible first year!</p>
+<p>The amount of support from the community has far exceeded my expectations, and I couldn't be happier. I wanted to wrap up the year sharing the progress that has been made and thank all of our wonderful contributors and sponsors.</p>
+<p>There is also a small announcement/surprise at the end 😉.</p>
+<h2><a href="#next-ls" aria-hidden="true" class="anchor" id="next-ls"></a>Next LS</h2>
+<p><a href="https://github.com/elixir-tools/next-ls">Next LS</a> is the main project from elixir-tools, so the star child gets to go first 😄.</p>
+<ul>
+<li>11,525 total downloads
+<ul>
+<li>2,332 from hex.pm (it switched to GitHub downloads at v0.8)</li>
+<li>9,193 from GitHub releases</li>
+<li>2,299 downloads of the latest release (v0.15.0)</li>
+</ul>
+</li>
+<li>55 releases</li>
+<li>
+<table>
+<thead>
+<tr>
+<th>20 Contributors</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/NJichev">NJichev</a></td>
+<td><a href="https://github.com/RoboZoom">RoboZoom</a></td>
+<td><a href="https://github.com/aayushmau5">aayushmau5</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/akirak">akirak</a></td>
+<td><a href="https://github.com/biletskyy">biletskyy</a></td>
+<td><a href="https://github.com/crbelaus">crbelaus</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/dvic">dvic</a></td>
+<td><a href="https://github.com/fhunleth">fhunleth</a></td>
+<td><a href="https://github.com/goofansu">goofansu</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/ismaelga">ismaelga</a></td>
+<td><a href="https://github.com/jamesvl">jamesvl</a></td>
+<td><a href="https://github.com/jjcarstens">jjcarstens</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jozuas">jozuas</a></td>
+<td><a href="https://github.com/lud-wj">lud-wj</a></td>
+<td><a href="https://github.com/mikayla-maki">mikayla-maki</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/philipgiuliani">philipgiuliani</a></td>
+<td><a href="https://github.com/shanesveller">shanesveller</a></td>
+<td><a href="https://github.com/stefanluptak">stefanluptak</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/wkirschbaum">wkirschbaum</a></td>
+<td><a href="https://github.com/zachallaun">zachallaun</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p>As of writing, Next LS supports the following features:</p>
+<ul>
+<li>Compiler Diagnostics</li>
+<li>Go To Definition</li>
+<li>Completions</li>
+<li>Find References</li>
+<li>Formatting</li>
+<li>Hover Documentation</li>
+<li>Document Symbols</li>
+<li>Workspace Symbols</li>
+<li>Workspace Folders</li>
+<li>Credo (Extension)</li>
+</ul>
+<p>Next LS is also supported in the following editors:</p>
+<ul>
+<li>Emacs</li>
+<li>Helix</li>
+<li>Neovim (<a href="https://github.com/elixir-tools/elixir-tools.nvim">elixir-tools.nvim</a>)</li>
+<li>Vim</li>
+<li>Visual Studio Code (<a href="https://github.com/elixir-tools/elixir-tools.vscode">elixir-tools.vscode</a>)</li>
+<li>Zed</li>
+</ul>
+<h2><a href="#tableau" aria-hidden="true" class="anchor" id="tableau"></a>Tableau</h2>
+<p><a href="https://github.com/elixir-tools/tableau">Tableau</a> is the static site generator that powers this very website!</p>
+<p>Tableau has started to become <em>very</em> feature complete this year, supporting most of the essentials you'd expect from any static site generator:</p>
+<ul>
+<li><input type="checkbox" disabled="" checked="" /> Good code and browser reloading on file change</li>
+<li><input type="checkbox" disabled="" checked="" /> Easy to use the current Node.js JS/CSS tooling</li>
+<li><input type="checkbox" disabled="" checked="" /> Extensions</li>
+<li><input type="checkbox" disabled="" /> Ability to work with &quot;data&quot; (either dynamic data or static files)
+<ul>
+<li><input type="checkbox" disabled="" checked="" /> YAML Files</li>
+<li><input type="checkbox" disabled="" checked="" /> Elixir scripts (.exs files)</li>
+</ul>
+</li>
+<li><input type="checkbox" disabled="" /> Handles stuff like Posts, RSS, sitemap, SEO.
+<ul>
+<li><input type="checkbox" disabled="" checked="" /> Posts</li>
+<li><input type="checkbox" disabled="" checked="" /> Pages</li>
+<li><input type="checkbox" disabled="" checked="" /> RSS</li>
+<li><input type="checkbox" disabled="" checked="" /> Sitemap</li>
+<li><input type="checkbox" disabled="" /> SEO</li>
+</ul>
+</li>
+</ul>
+<p>Tableau is also very easy to use with any templating language you want! This website is built with <a href="https://github.com/mhanberg/temple">Temple</a>, but you can easily use <a href="https://github.com/mhanberg/tableau_demo_eex">EEx</a> or even <a href="https://github.com/mhanberg/tableau_demo_heex">HEEx</a>.</p>
+<p>If you are migrating from a Jekyll site, you might take advantage of the <a href="https://hex.pm/packages/solid">solid</a> library for Liquid templates.</p>
+<p>I'd also like to give a shoutout to <a href="https://github.com/leandrocp">Leandro Pereira</a> for the wonderful <a href="https://github.com/leandrocp/mdex">MDEx</a> library. This markdown library uses a NIF to a rust library that supports the full CommonMark spec and the GitHub Flavored Markdown spec. This is important as it allows an easier migration for blogs and websites built in other frameworks like Jekyll.</p>
+<p>Also, a feature that I particularly like, is that it supports syntax highlighting with <a href="https://tree-sitter.github.io/tree-sitter/">tree-sitter</a>, which means we immediately get support for almost every syntax that exists, as well as tons of colorschemes that come from the <a href="https://github.com/helix-editor/helix">Helix</a> text editor.</p>
+<p>Thank you Leandro!</p>
+<h2><a href="#web_dev_utils" aria-hidden="true" class="anchor" id="web_dev_utils"></a>web_dev_utils</h2>
+<p>One side effect from building out Tableau, is that I had copy pasted the same utilities into an app for the third time, so I decided to finally make it a package.</p>
+<p><a href="https://github.com/elixir-tools/web_dev_utils">web_dev_utils</a> is a small package that provides modules for adding asset watchers, file watching, and browser live reloading to your library or framework.</p>
+<p>This couldn't have been possible without <a href="https://github.com/phoenixframework/phoenix">Phoenix</a> laying the foundation, so thank you Phoenix!</p>
+<h2><a href="#spitfire" aria-hidden="true" class="anchor" id="spitfire"></a>Spitfire</h2>
+<p>Here's the surprise 🎉.</p>
+<p>I am currently building a new error tolerant parser for Elixir that I am code naming &quot;Spitfire&quot;.</p>
+<p>The driving factor behind this parser is to make it possible to &quot;successfully&quot; parse malformed or incomplete Elixir code, which will allow us to properly query the &quot;environment&quot; of the cursor in a text editor.</p>
+<p>This is currently possible for proper/correct Elixir code, but not incomplete code (which occurs more often than complete code when you are in your text editor). This information will eventually allow editor tooling like Next LS to provide accurate and context aware completion candidates, among other features.</p>
+<p>This work has been discussed in <a href="https://github.com/elixir-lang/elixir/issues/12645#issuecomment-1837629952">elixir-lang/elixir#12645</a>. You can follow along there or in the Spitfire repo <a href="https://github.com/elixir-tools/spitfire">elixir-tools/spitfire</a> for updates!</p>
+<h2><a href="#community" aria-hidden="true" class="anchor" id="community"></a>Community</h2>
+<h3><a href="#discord" aria-hidden="true" class="anchor" id="discord"></a>Discord</h3>
+<p>The discord server keeps growing!</p>
+<p>We currently have 195 members and are getting more every day, come <a href="https://discord.gg/6XdGnxVA2A">join</a> the party!</p>
+<h2><a href="#thank-you" aria-hidden="true" class="anchor" id="thank-you"></a>Thank you</h2>
+<p>I'd like to give a huge shout out to all of the contributors, bug reporters, and to all of my GitHub sponsors! Without the support of all of you, none of this would be possible.</p>
+<table>
+<thead>
+<tr>
+<th>Sponsors</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/akoutmos">akoutmos</a></td>
+<td><a href="https://github.com/andrepaes">andrepaes</a></td>
+<td><a href="https://github.com/baldwindavid">baldwindavid</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/brettwise">brettwise</a></td>
+<td><a href="https://github.com/chriscrabtree">chriscrabtree</a></td>
+<td><a href="https://github.com/cigrainger">cigrainger</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/clark-lindsay">clark-lindsay</a></td>
+<td><a href="https://github.com/dbernheisel">dbernheisel</a></td>
+<td><a href="https://github.com/dkarter">dkarter</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/dvic">dvic</a></td>
+<td><a href="https://github.com/dyackson">dyackson</a></td>
+<td><a href="https://github.com/ethangunderson">ethangunderson</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/getsupered">getsupered</a></td>
+<td><a href="https://github.com/jlgeering">jlgeering</a></td>
+<td><a href="https://github.com/jwright">jwright</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/kgautreaux">kgautreaux</a></td>
+<td><a href="https://github.com/leonqadirie">leonqadirie</a></td>
+<td><a href="https://github.com/mikl">mikl</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Nezteb">Nezteb</a></td>
+<td><a href="https://github.com/NFIBrokerage">NFIBrokerage</a></td>
+<td><a href="https://github.com/oestrich">oestrich</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/PJUllrich">PJUllrich</a></td>
+<td><a href="https://github.com/qdentity">qdentity</a></td>
+<td><a href="https://github.com/RudolfMan">RudolfMan</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/sb8244">sb8244</a></td>
+<td><a href="https://github.com/shenaor">shenaor</a></td>
+<td><a href="https://github.com/simon-wolf">simon-wolf</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/sorenone">sorenone</a></td>
+<td><a href="https://github.com/sorentwo">sorentwo</a></td>
+<td><a href="https://github.com/v1d3rm3">v1d3rm3</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/znorris">znorris</a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2><a href="#how-to-get-involved" aria-hidden="true" class="anchor" id="how-to-get-involved"></a>How to get involved</h2>
+<p>If you'd like to get involved with elixir-tools, there are several ways:</p>
+<ul>
+<li>Contribute to the project via code on <a href="https://github.com/elixir-tools">GitHub</a></li>
+<li>Contribute to the community via <a href="https://discord.gg/6XdGnxVA2A">Discord</a> or <a href="https://github.com/orgs/elixir-tools/discussions">GitHub</a></li>
+<li>Contribute financially via <a href="https://github.com/sponsors/mhanberg">GitHub Sponsors</a></li>
+</ul>
+ ]]></description>
+    </item>
+    <item>
+       <title>The elixir-tools Update Vol. 4</title>
+       <link>https://http://localhost:4999/news/the-elixir-tools-update-vol-4</link>
+       <pubDate>Thu, 19 Oct 2023 01:00:00 EDT</pubDate>
+       <guid>http://http://localhost:4999/news/the-elixir-tools-update-vol-4</guid>
+       <description><![CDATA[ <h2><a href="#corporate-sponsor-update" aria-hidden="true" class="anchor" id="corporate-sponsor-update"></a>Corporate Sponsor Update</h2>
+<p>I want to give a quick thank you to the <strong>third</strong> corporate sponsor of elixir-tools, <a href="https://www.supered.io">Supered</a>!</p>
+<p>You can see all of our corporate sponsor's logos on the home page of <a href="/#sponsors">elixir-tools.dev</a>.</p>
+<p>Corporate sponsors are a tremendous help, and take the burden off of individuals. If you can, please talk to your employer about sponsoring!</p>
+<p>You can sponsor the project on <a href="https://github.com/sponsors/mhanberg">GitHub</a>.</p>
+<h2><a href="#next-ls" aria-hidden="true" class="anchor" id="next-ls"></a>Next LS</h2>
+<p><a href="https://github.com/elixir-tools/next-ls">Next LS</a> has had... <em>another</em> tremendous month!</p>
+<p>This month has had quite a few bug fixes, some distribution patches, and a couple of very exciting new features!</p>
+<ul>
+<li>~ 7,000 total downloads (estimated, increase of 2,800 from the last update)
+<ul>
+<li>v0.13.5 was only a few downloads shy of 1,000 before I published a new version, which I think is a solid enough heuristic to say Next LS has about 1,000 users 🤯.</li>
+</ul>
+</li>
+<li>9 releases</li>
+<li>7 contributors (alphabetical order)
+<ul>
+<li><a href="https://github.com/biletskyy">Dmytro Biletskyy</a></li>
+<li><a href="https://github.com/fhunleth">Frank Hunleth</a></li>
+<li><a href="https://github.com/ismaelga">Ismael Abreu</a></li>
+<li><a href="https://github.com/jjcarstens">Jon Carstens</a></li>
+<li><a href="https://github.com/jozuas">Juozas Norkus</a></li>
+<li><a href="https://github.com/stefanluptak">Stefan Luptak</a></li>
+<li><a href="https://github.com/goofansu">Yejun Su</a></li>
+</ul>
+</li>
+</ul>
+<h3><a href="#local-variable-definition-and-references" aria-hidden="true" class="anchor" id="local-variable-definition-and-references"></a>Local Variable Definition and References</h3>
+<p>Dmytro is back again with another enhancement to go to definition and find references, this time for local variables!</p>
+<p>This was a tricky problem to solve, as local variables definitions and references are not emitted by the compilation tracers, which are used to fill in the symbol/reference database.</p>
+<p>Thanks to some clever usage of <code>Macro.traverse/4</code>, we have fast and accurate hopping between local variable definitions and references!</p>
+<p>Implemented by <a href="https://github.com/biletskyy">Dmytro Biletskyy</a>!</p>
+<h3><a href="#nix-flake" aria-hidden="true" class="anchor" id="nix-flake"></a>Nix Flake</h3>
+<p>The Nix flake worked alright on macOS, or so I had thought, but Juozas and Yejun knew better!</p>
+<p>The following improvements were made:</p>
+<ul>
+<li>Build with the ERTS provided by Nix rather than downloading from the Burrito CDN. Included an upstream <a href="https://github.com/burrito-elixir/burrito/pull/105">fix</a> to Burrito.</li>
+<li>Correctly install the burrito'd executable into the bin directory.</li>
+<li>Patch the executable to use the Nix provided glibc.</li>
+</ul>
+<p>Implemented by <a href="https://github.com/jozuas">Juozas Norkus</a> and <a href="https://github.com/goofansu">Yejun Su</a>!</p>
+<h3><a href="#configurable-mix_env-and-mix_target" aria-hidden="true" class="anchor" id="configurable-mix_env-and-mix_target"></a>Configurable MIX_ENV and MIX_TARGET</h3>
+<p>Jon added the settings to control the MIX_ENV and MIX_TARGET of the runtime that houses your project code. This is very useful for Nerves projects!</p>
+<p>Implemented by <a href="https://github.com/jjcarstens">Jon Carstens</a>!</p>
+<h3><a href="#completions" aria-hidden="true" class="anchor" id="completions"></a>Completions</h3>
+<p>This is a big one that a lot of people have been waiting for!</p>
+<p>With v0.14.0, preliminary support for auto-completions has been released, gated by an experimental flag. The reason for the flag is so that if there is any instability, a user can toggle it off until more patches have been released.</p>
+<p>This initial release includes support for the following types of completion candidates:</p>
+<ul>
+<li>Global modules</li>
+<li>Global Structs</li>
+<li>Struct fields</li>
+<li>Remote functions/macros (w/ documentation)</li>
+<li>Special Forms (w/ documentation)</li>
+<li>Bitstring modifiers</li>
+<li>Filesystem paths in strings</li>
+</ul>
+<p>Coming soon will be candidates that require lexical environment information, such as local variables, module attributes, imported functions/macros (including Kernel), and aliased modules.</p>
+<p>In order to proceed with the above, I will be helping out with implementing the capabilities in elixir-lang core, you can follow <a href="https://github.com/elixir-lang/elixir/issues/12645">elixir-lang/elixir#12645</a> for more information.</p>
+<p>Snippets are another upcoming, completion related feature, but aren't being held up by anything upstream.</p>
+<p>This functionality is based on <code>IEx.Autocomplete</code>, and I'd like to give a huge thanks to the Elixir core team for providing such a firm foundation for Next LS to base it's implementation on.</p>
+<h2><a href="#elixir-toolsnvim-elixir-toolsvscode-vim-zed-and-doom-emacs" aria-hidden="true" class="anchor" id="elixir-toolsnvim-elixir-toolsvscode-vim-zed-and-doom-emacs"></a>elixir-tools.nvim, elixir-tools.vscode, Vim, Zed, and Doom Emacs</h2>
+<p>We have gained a ton of new editor support since the last update, including support for the new Rust based, collaborative editor <a href="https://zed.dev">Zed</a>, Vim, and Doom Emacs.</p>
+<h3><a href="#nvim" aria-hidden="true" class="anchor" id="nvim"></a>Nvim</h3>
+<ul>
+<li>Installs: Measuring installs is hard for a GitHub based plugin, but I have since started tracking clones using a nifty GitHub Action. You can view the report it generates on the <a href="https://raw.githubusercontent.com/elixir-tools/elixir-tools.nvim/github-repo-stats/elixir-tools/elixir-tools.nvim/latest-report/report.pdf">github-repo-stats</a> branch.</li>
+<li>2 releases</li>
+<li>1 contributor (alphabetical order)
+<ul>
+<li><a href="https://github.com/johannesrld">Johannes Richard Levi Dickenson</a></li>
+</ul>
+</li>
+</ul>
+<h3><a href="#visual-studio-code" aria-hidden="true" class="anchor" id="visual-studio-code"></a>Visual Studio Code</h3>
+<ul>
+<li>1,935 installs (+ ~600 since the last update)</li>
+<li>3 releases</li>
+</ul>
+<h3><a href="#vim" aria-hidden="true" class="anchor" id="vim"></a>Vim</h3>
+<p>Since the last update, I have managed to get Next LS setup and working with several Vim LSP plugins. Vim doesn't have a builtin LSP client like Nvim does, so you must first install an LSP client plugin.</p>
+<p>There is now documentation for getting it started with:</p>
+<ul>
+<li><a href="https://github.com/prabirshrestha/vim-lsp">prabirshrestha/vim-lsp</a></li>
+<li><a href="https://github.com/yegappan/lsp">yegappan/lsp</a></li>
+<li><a href="https://github.com/dense-analysis/ale">dense-analysis/ale</a> (Still needs an upstream <a href="https://github.com/dense-analysis/ale/pull/4626">PR</a> in ALE to be merged, however)</li>
+</ul>
+<p>You can view the documentation on how to configure these plugins in the Next LS README or on the <a href="https://www.elixir-tools.dev/next-ls#getting-started">website</a>.</p>
+<h3><a href="#doom-emacs" aria-hidden="true" class="anchor" id="doom-emacs"></a>Doom Emacs</h3>
+<p>Similarly to Vim, I was able to get Next LS up and running in Doom Emacs using the <code>eglot</code> LSP client (the one built into Emacs).</p>
+<p>You can view the documentation on how to configure Doom Emacs in the Next LS README or on the <a href="https://www.elixir-tools.dev/next-ls#getting-started">website</a>.</p>
+<h3><a href="#zed" aria-hidden="true" class="anchor" id="zed"></a>Zed</h3>
+<p><a href="https://zed.dev">Zed</a> is a hot new Rust based collaborative editor that a lot of folks in the Elixir community have been hyping up and rightfully so!</p>
+<p>Luckily for us, the kind folks at Zed integrated Next LS into their editor and you can easily opt into Next LS with a small settings change.</p>
+<p>You can view the documentation on how to configure Zed in the Next LS README or on the <a href="https://www.elixir-tools.dev/next-ls#getting-started">website</a>.</p>
+<h2><a href="#tableau" aria-hidden="true" class="anchor" id="tableau"></a>Tableau</h2>
+<p><a href="https://github.com/elixir-tools/tableau">Tableau</a> is the static site generator that powers this very website!</p>
+<p>Since the last update, Tableau has gained several new abilities:</p>
+<ul>
+<li>Upstreamed the Post extension from elixir-tools.dev into Tableau</li>
+<li>Upstreamed the RSS extension from elixir-tools.dev into Tableau</li>
+<li>YAML data files are now supported. For example, this website has a <code>tools.yaml</code> file that is used in several places to loop through all of the tools and render their descriptions and URLs</li>
+</ul>
+<p>An upcoming feature is to support <code>.exs</code> files as data files, allowing you to run arbitrary code, like some HTTP requests to fetch some data from an API. Once this feature is done, I should be able to port my <a href="https://www.mitchellhanberg.com">personal website</a> to Tableau. I read from the Goodreads API in a Ruby script to fill in a &quot;bookshelf&quot; page. This should be much simpler to do with Tableau 😉.</p>
+<h2><a href="#community" aria-hidden="true" class="anchor" id="community"></a>Community</h2>
+<h3><a href="#discord" aria-hidden="true" class="anchor" id="discord"></a>Discord</h3>
+<p>The discord server keeps growing!</p>
+<p>We currently have 163 (25 new since the last update) members and are getting more every day, come <a href="https://discord.gg/6XdGnxVA2A">join</a> the party!</p>
+<h2><a href="#thank-you" aria-hidden="true" class="anchor" id="thank-you"></a>Thank you</h2>
+<p>I'd like to give a huge shout out to all of the contributors, bug reporters, and to all (29!) of my GitHub sponsors! Without the support of all of you, none of this would be possible.</p>
+<h2><a href="#how-to-get-involved" aria-hidden="true" class="anchor" id="how-to-get-involved"></a>How to get involved</h2>
+<p>If you'd like to get involved with elixir-tools, there are several ways:</p>
+<ul>
+<li>Contribute to the project via code on <a href="https://github.com/elixir-tools">GitHub</a></li>
+<li>Contribute to the community via <a href="https://discord.gg/6XdGnxVA2A">Discord</a> or <a href="https://github.com/orgs/elixir-tools/discussions">GitHub</a></li>
+<li>Contribute financially via <a href="https://github.com/sponsors/mhanberg">GitHub Sponsors</a></li>
+</ul>
+<h2><a href="#sponsors" aria-hidden="true" class="anchor" id="sponsors"></a>Sponsors</h2>
+<ul>
+<li><a href="https://github.com/akoutmos">akoutmos</a></li>
+<li><a href="https://github.com/andrepaes">andrepaes</a></li>
+<li><a href="https://github.com/baldwindavid">baldwindavid</a></li>
+<li><a href="https://github.com/brettwise">brettwise</a></li>
+<li><a href="https://github.com/chriscrabtree">chriscrabtree</a></li>
+<li><a href="https://github.com/cigrainger">cigrainger</a></li>
+<li><a href="https://github.com/clark-lindsay">clark-lindsay</a></li>
+<li><a href="https://github.com/dbernheisel">dbernheisel</a></li>
+<li><a href="https://github.com/dkarter">dkarter</a></li>
+<li><a href="https://github.com/dvic">dvic</a></li>
+<li><a href="https://github.com/dyackson">dyackson</a></li>
+<li><a href="https://github.com/ethangunderson">ethangunderson</a></li>
+<li><a href="https://github.com/getsupered">getsupered</a></li>
+<li><a href="https://github.com/jozuas">jozuas</a></li>
+<li><a href="https://github.com/leonqadirie">leonqadirie</a></li>
+<li><a href="https://github.com/mikl">mikl</a></li>
+<li><a href="https://github.com/Nezteb">Nezteb</a></li>
+<li><a href="https://github.com/NFIBrokerage">NFIBrokerage</a></li>
+<li><a href="https://github.com/oestrich">oestrich</a></li>
+<li><a href="https://github.com/PJUllrich">PJUllrich</a></li>
+<li><a href="https://github.com/qdentity">qdentity</a></li>
+<li><a href="https://github.com/RudolfMan">RudolfMan</a></li>
+<li><a href="https://github.com/sb8244">sb8244</a></li>
+<li><a href="https://github.com/shenaor">shenaor</a></li>
+<li><a href="https://github.com/simon-wolf">simon-wolf</a></li>
+<li><a href="https://github.com/sorenone">sorenone</a></li>
+<li><a href="https://github.com/sorentwo">sorentwo</a></li>
+<li><a href="https://github.com/v1d3rm3">v1d3rm3</a></li>
+<li><a href="https://github.com/zyzyva">zyzyva</a></li>
+</ul>
+ ]]></description>
+    </item>
+    <item>
+       <title>The elixir-tools Update Vol. 3</title>
+       <link>https://http://localhost:4999/news/the-elixir-tools-update-vol-3</link>
+       <pubDate>Tue, 19 Sep 2023 01:00:00 EDT</pubDate>
+       <guid>http://http://localhost:4999/news/the-elixir-tools-update-vol-3</guid>
+       <description><![CDATA[ <h2><a href="#next-ls" aria-hidden="true" class="anchor" id="next-ls"></a>Next LS</h2>
+<p><a href="https://github.com/elixir-tools/next-ls">Next LS</a> has had <em>another</em> tremendous month!</p>
+<p>This month was filled with <em>boring</em> infrastructure improvements as well as some awesome new features.</p>
+<ul>
+<li>~ 4,200 total downloads (estimated)</li>
+<li>12 releases</li>
+<li>5 contributors (alphabetical order)
+<ul>
+<li><a href="https://github.com/dvic">Damir Vandic</a></li>
+<li><a href="https://github.com/sineed">Denis Tataurov</a></li>
+<li><a href="https://github.com/biletskyy">Dmytro Biletskyy</a></li>
+<li><a href="https://github.com/fhunleth">Frank Hunleth</a></li>
+<li><a href="https://github.com/RoboZoom">RoboZoom</a></li>
+</ul>
+</li>
+</ul>
+<h2><a href="#auto-update" aria-hidden="true" class="anchor" id="auto-update"></a>Auto Update</h2>
+<p>Next LS now has a built in auto update mechanism!</p>
+<p>When Next LS starts up, it will check to see if there is a new version, and if there is, it downloads the appropriate release from GitHub and notifies you to restart your editor when you are ready to use the new version.</p>
+<p>The editor extensions set this automatically if you don't configure a custom binary location. If you do, it assumes you are managing it yourself and won't enable the auto update process.</p>
+<h2><a href="#cli-improvements" aria-hidden="true" class="anchor" id="cli-improvements"></a>CLI Improvements</h2>
+<p>While you don't normally interact with the Next LS CLI, it is still a CLI tool at it's heart.</p>
+<p>The CLI now has <code>--help</code> and <code>--version</code> options that work as you'd expect.</p>
+<pre class="autumn highlight" style="background-color: #1F1F28; color: #DCD7BA;"><code class="language-plain-text" translate="no">Next LS v0.12.5
+
+The language server for Elixir that just works.
+
+     Author: Mitchell Hanberg
+  Home page: https:&#x2f;&#x2f;www.elixir-tools.dev&#x2f;next-ls
+Source code: https:&#x2f;&#x2f;github.com&#x2f;elixir-tools&#x2f;next-ls
+
+nextls [flags]
+
+FLAGS
+
+  --stdio             Use stdio as the transport mechanism
+  --port &lt;port&gt;       Use TCP as the transport mechanism, with the given port
+  --help              Show help
+  --version           Show nextls version
+</code></pre>
+<h2><a href="#symbolreference-database-improvements" aria-hidden="true" class="anchor" id="symbolreference-database-improvements"></a>Symbol/Reference Database Improvements</h2>
+<p>There has been a few improvements to the symbol/reference database, which powers the Definition and References features, let's take a look!</p>
+<h3><a href="#dependency-definitions" aria-hidden="true" class="anchor" id="dependency-definitions"></a>Dependency Definitions</h3>
+<p>You can now follow a module or function definition into a dependency! This is useful if you quickly need to see how a dependencies function was implemented without heading to your web browser or another editor.</p>
+<p>Implemented by <a href="https://github.com/dvic">Damir Vandic</a>!</p>
+<h3><a href="#module-attributes" aria-hidden="true" class="anchor" id="module-attributes"></a>Module Attributes</h3>
+<p>You can now follow a module attribute to its definition or find references of that attribute.</p>
+<p>Implemented by <a href="https://github.com/biletskyy">Dmytro Biletskyy</a>!</p>
+<h3><a href="#modules-in-alias-calls" aria-hidden="true" class="anchor" id="modules-in-alias-calls"></a>Modules in <code>alias</code> calls</h3>
+<p>Modules that are arguments to the <code>alias</code> special form are now added to the references database, so you can use definition, references, and hover on them!</p>
+<h2><a href="#credo-extension" aria-hidden="true" class="anchor" id="credo-extension"></a>Credo Extension</h2>
+<p>We have our very first 1st party extension for a library, <a href="https://github.com/rrrene/credo">Credo</a>!</p>
+<p>The Credo extension currently provides diagnostics for Credo checks. This is a subset of the features from <a href="https://github.com/elixir-tools/credo-language-server">Credo Language Server</a>, and effectively deprecates Credo Langauge Server if you are using Next LS.</p>
+<p>Effort to port of the Code Actions is next.</p>
+<h2><a href="#indexing-notifications" aria-hidden="true" class="anchor" id="indexing-notifications"></a>Indexing notifications</h2>
+<p>If your code base is sufficiently large (maybe in the 60kloc range), your project might continue to index after it has finished compiling.</p>
+<p>Index progress notifications help you know if it's still chugging along or if something is broken.</p>
+<h2><a href="#workspace-symbols-improvements" aria-hidden="true" class="anchor" id="workspace-symbols-improvements"></a>Workspace Symbols Improvements</h2>
+<p>Workspace Symbol queries used to be a basic regex match (internally just <code>=~</code>), but now they use a ranked fuzzy match.</p>
+<p>This provides matches similar to that of the <code>fzf</code> CLI tool.</p>
+<p>Implemented by <a href="https://github.com/biletskyy">Dmytro Biletskyy</a>!</p>
+<h2><a href="#infrastructure-improvements" aria-hidden="true" class="anchor" id="infrastructure-improvements"></a>Infrastructure Improvements</h2>
+<p>A big portion of this month was setting up a safe, automated pipeline for building and releasing the burrito binaries, along with setting up alternative methods of distribution.</p>
+<h3><a href="#release-pipeline" aria-hidden="true" class="anchor" id="release-pipeline"></a>Release Pipeline</h3>
+<p>In order for burrito to be able to cross compile to other OSs and architectures, it needs to be run on an Apple Silicon Mac.</p>
+<p>I have an M1 MacBook Air, so in the beginning this was fine, but quickly became tedious.</p>
+<p>Luckily I have GitHub sponsors (and one very generous one time sponsor!) so I was able to justify the purchase of a refurbished M2 Mac Mini.</p>
+<p>I was able to cobble together the following technologies to achieve a fully automated release pipeline:</p>
+<ul>
+<li>M2 Mac Mini</li>
+<li><a href="https://en.wikipedia.org/wiki/VLAN">VLAN</a></li>
+<li><a href="https://github.com/google-github-actions/release-please-action">release-please</a></li>
+<li><a href="https://github.com/actions/runner">Self hosted GitHub Actions Runner</a></li>
+<li><a href="https://github.com/cirruslabs/cirrus-cli">Cirrus CLI</a></li>
+<li><a href="https://github.com/cirruslabs/tart">Tart VMs</a></li>
+<li><a href="https://github.com/jdx/rtx">rtx</a></li>
+</ul>
+<p>So basically the pipeline is:</p>
+<ul>
+<li>Merge code into <code>main</code></li>
+<li><code>release-please-action</code> creates a new GitHub release as a draft</li>
+<li>GitHub Actions kicks off the release job, which is dispatched to the runner that is running on the Mac Mini in my closet.</li>
+<li>The Mac Mini is associated with its own Virtual LAN, so it can't see the rest of my home network.</li>
+<li>The runner runs a private workflow that is stored in a separate repository.</li>
+<li>That workflow starts a Cirrus workflow using the Cirrus CLI. The CLI boots a macOS virtual machine using <code>tart</code> and rsyncs the source code to it.</li>
+<li>The <code>.cirrus.yml</code> configuration installs <code>rtx</code>, which is then used to install the appropriate Elixir and Erlang versions.</li>
+<li>We run <code>mix release</code>, which generates the burrito binaries.</li>
+<li>The binaries are then uploaded to the draft GitHub release.</li>
+<li>The release is published! (goes from draft to published)</li>
+</ul>
+<p>This workflow seems to be working incredibly well! I opted to self host the Apple Silicon machine because it seemed to be the most cost effective option while still being in the GitHub Actions ecosystem.</p>
+<p>Other elixir-tools projects can also use this runner to run tests on Apple Silicon (which is important, as many developers use Apple Silicon).</p>
+<h3><a href="#homebrew-tap" aria-hidden="true" class="anchor" id="homebrew-tap"></a>Homebrew Tap</h3>
+<p>Next LS is now available with Homebrew by our self hosted tap. Simply run <code>brew install elixir-tools/tap/next-ls</code>!</p>
+<p>Currently their are pre-built bottles for amd64 Linux and amd64 macOS. Once I get the tap hooked into the new Mac Mini runner, it should be able to build arm64 macOS bottles as well.</p>
+<p>I also still need to get updating the tap automated with the release pipeline.</p>
+<h3><a href="#nix-flake" aria-hidden="true" class="anchor" id="nix-flake"></a>Nix Flake</h3>
+<p>A <a href="https://nixos.wiki/wiki/Flakes">nix flake</a> is now included in the repository, so you can install it via Nix with <code>nix profile install github:elixir-tools/next-ls</code>.</p>
+<p>This works on macOS currently, but nix running on NixOS or Linux doesn't seem to work yet. I'm still learning nix!</p>
+<h2><a href="#elixir-toolsnvim-and-elixir-toolsvscode" aria-hidden="true" class="anchor" id="elixir-toolsnvim-and-elixir-toolsvscode"></a>elixir-tools.nvim and elixir-tools.vscode</h2>
+<p>This month most of the updates for the editor plugins were to support new features in Next LS!</p>
+<h3><a href="#nvim" aria-hidden="true" class="anchor" id="nvim"></a>Nvim</h3>
+<ul>
+<li>~ 4,000 clones (estimated, since last update)</li>
+<li>5 releases</li>
+<li>2 contributors (alphabetical order)
+<ul>
+<li><a href="https://github.com/andrepaes">André Luiz da Fonsêca Paes</a></li>
+<li><a href="https://github.com/dvic">Damir Vandic</a></li>
+</ul>
+</li>
+</ul>
+<h3><a href="#visual-studio-code" aria-hidden="true" class="anchor" id="visual-studio-code"></a>Visual Studio Code</h3>
+<ul>
+<li>1,398 installs</li>
+<li>3 releases</li>
+<li>1 contributors (alphabetical order)
+<ul>
+<li><a href="https://github.com/zachallaun">Zach Allaun</a></li>
+</ul>
+</li>
+</ul>
+<h2><a href="#community" aria-hidden="true" class="anchor" id="community"></a>Community</h2>
+<h3><a href="#discord" aria-hidden="true" class="anchor" id="discord"></a>Discord</h3>
+<p>The discord server keeps growing!</p>
+<p>We currently have 138 (30 new since the last update) members and are getting more every day, come <a href="https://discord.gg/6XdGnxVA2A">join</a> the party!</p>
+<h2><a href="#thank-you" aria-hidden="true" class="anchor" id="thank-you"></a>Thank you</h2>
+<p>I'd like to give a huge shout out to all of the contributors, bug reporters, and to all (27!) of my GitHub sponsors! Without the support of all of you, none of this would be possible.</p>
+<h2><a href="#how-to-get-involved" aria-hidden="true" class="anchor" id="how-to-get-involved"></a>How to get involved</h2>
+<p>If you'd like to get involved with elixir-tools, there are several ways:</p>
+<ul>
+<li>Contribute to the project via code on <a href="https://github.com/elixir-tools">GitHub</a></li>
+<li>Contribute to the community via <a href="https://discord.gg/6XdGnxVA2A">Discord</a> or <a href="https://github.com/orgs/elixir-tools/discussions">GitHub</a></li>
+<li>Contribute financially via <a href="https://github.com/sponsors/mhanberg">GitHub Sponsors</a></li>
+</ul>
+<h2><a href="#sponsors" aria-hidden="true" class="anchor" id="sponsors"></a>Sponsors</h2>
+<ul>
+<li><a href="https://github.com/aayushmau5">aayushmau5</a></li>
+<li><a href="https://github.com/akoutmos">akoutmos</a></li>
+<li><a href="https://github.com/andrepaes">andrepaes</a></li>
+<li><a href="https://github.com/baldwindavid">baldwindavid</a></li>
+<li><a href="https://github.com/brettwise">brettwise</a></li>
+<li><a href="https://github.com/bus710">bus710</a></li>
+<li><a href="https://github.com/chriscrabtree">chriscrabtree</a></li>
+<li><a href="https://github.com/cigrainger">cigrainger</a></li>
+<li><a href="https://github.com/clark-lindsay">clark-lindsay</a></li>
+<li><a href="https://github.com/dbernheisel">dbernheisel</a></li>
+<li><a href="https://github.com/dkarter">dkarter</a></li>
+<li><a href="https://github.com/dvic">dvic</a></li>
+<li><a href="https://github.com/dyackson">dyackson</a></li>
+<li><a href="https://github.com/ethangunderson">ethangunderson</a></li>
+<li><a href="https://github.com/jozuas">jozuas</a></li>
+<li><a href="https://github.com/leonqadirie">leonqadirie</a></li>
+<li><a href="https://github.com/mikl">mikl</a></li>
+<li><a href="https://github.com/Nezteb">Nezteb</a></li>
+<li><a href="https://github.com/NFIBrokerage">NFIBrokerage</a></li>
+<li><a href="https://github.com/oestrich">oestrich</a></li>
+<li><a href="https://github.com/PJUllrich">PJUllrich</a></li>
+<li><a href="https://github.com/RudolfMan">RudolfMan</a></li>
+<li><a href="https://github.com/shenaor">shenaor</a></li>
+<li><a href="https://github.com/simon-wolf">simon-wolf</a></li>
+<li><a href="https://github.com/sorenone">sorenone</a></li>
+<li><a href="https://github.com/sorentwo">sorentwo</a></li>
+<li><a href="https://github.com/zyzyva">zyzyva</a></li>
+</ul>
+ ]]></description>
+    </item>
+    <item>
+       <title>The elixir-tools Update Vol. 2</title>
+       <link>https://http://localhost:4999/news/the-elixir-tools-update-vol-2</link>
+       <pubDate>Mon, 14 Aug 2023 01:00:00 EDT</pubDate>
+       <guid>http://http://localhost:4999/news/the-elixir-tools-update-vol-2</guid>
+       <description><![CDATA[ <p>Welcome to Vol. 2 of the elixir-tools update!</p>
+<h2><a href="#corporate-sponsor-update" aria-hidden="true" class="anchor" id="corporate-sponsor-update"></a>Corporate Sponsor Update</h2>
+<p>I want to give a quick thank you to the first two corporate sponsors of elixir-tools, <a href="https://qdentity.com/">Qdentity</a> and <a href="https://www.nfiindustries.com/solutions/integrated-logistics/">NFI Integrated Logistics</a>!</p>
+<p>You can see their logos on the home page of <a href="/#sponsors">elixir-tools.dev</a>.</p>
+<p>Corporate sponsors are a tremendous help, and take the burden off of individuals. If you can, please talk to your employer about sponsoring!</p>
+<p>You can sponsor the project on <a href="https://github.com/sponsors/mhanberg">GitHub</a>.</p>
+<h2><a href="#next-ls" aria-hidden="true" class="anchor" id="next-ls"></a>Next LS</h2>
+<p><a href="https://github.com/elixir-tools/next-ls">Next LS</a> has had a tremendous month!</p>
+<ul>
+<li>~ 2,000 downloads (estimated)</li>
+<li>16 releases</li>
+<li>7 contributors (alphabetical order)
+<ul>
+<li><a href="https://github.com/aayushmau5">Aayush Sahu</a></li>
+<li><a href="https://github.com/crbelaus">Cristian Álvarez Belaustegui</a></li>
+<li><a href="https://github.com/dvic">Damir Vandic</a></li>
+<li><a href="https://github.com/lud-wj">Ludovic Demblans</a></li>
+<li><a href="https://github.com/philipgiuliani">Philip Giuliani</a></li>
+<li><a href="https://github.com/wkirschbaum">Wilhelm Kirschbaum</a></li>
+<li><a href="https://github.com/zachallaun">Zach Allaun</a></li>
+</ul>
+</li>
+</ul>
+<h2><a href="#features" aria-hidden="true" class="anchor" id="features"></a>Features</h2>
+<ul>
+<li>
+<p><strong>Workspace Folders</strong></p>
+<p>You can now add more folders to your workspace in editors like Visual Studio Code. This will utilize a single Next LS instance, but it will still start isolated environments for each folder.</p>
+</li>
+<li>
+<p><strong>Find References</strong> (by <a href="https://github.com/crbelaus">Cristian Álvarez Belaustegui</a>)</p>
+<p>You can now trigger &quot;Find References&quot; on a reference or a function/module definition and see all the places that it is referenced.</p>
+</li>
+<li>
+<p><strong>Binary Executable</strong></p>
+<p>Next LS is no longer distributed via <code>Mix.install/2</code>.</p>
+<p>Instead, we use <a href="https://github.com/burrito-elixir/burrito">Burrito</a> to compile binaries for every platform! This brings us closer to having a rock solid experience on every platform, and being able to treat Next LS more like an &quot;app&quot; and not like a library.</p>
+<p>We can use the latest versions of Elixir and OTP, as they are bundled into the executable.</p>
+<p>It's pre-compiled, so you don't need to compile it on your machine. This was the cause of confusion when your editor would install it for the first time or download an update.</p>
+<p>It's better suited to distribution on package managers like Homebrew, Apt, and <a href="https://github.com/mason-org/mason-registry/pull/2013">mason.nvim</a>.</p>
+<p>I want to give a <em><strong>huge</strong></em> thank you to my friend <a href="https://github.com/doawoo">Digit</a>, the author of Burrito. He helped make this all possible and taught me a lot of about Linux, libc, and being an hacker 😎.</p>
+</li>
+<li>
+<p><strong>Helix</strong></p>
+<p><a href="https://github.com/philipgiuliani">Philip Giuliani</a> contributed setup instructions for the <a href="https://helix-editor.com/">Helix</a> text editor!</p>
+</li>
+</ul>
+<h2><a href="#under-the-hood" aria-hidden="true" class="anchor" id="under-the-hood"></a>Under the Hood</h2>
+<p>I'd like to give a small spotlight on one under the hood change.</p>
+<p>The original version of the &quot;symbol table&quot; that powers Go To Definition and Workspace Symbols was powered by <a href="https://erlang.org/doc/man/dets.html">DETS</a>.</p>
+<p>This worked out alright at first, but ended up being quite unergonomic (is that a word?) and a pain to debug.</p>
+<p>Instead, Next LS now uses <a href="https://www.sqlite.org/index.html">SQLite3</a> via the <a href="https://github.com/elixir-sqlite/exqlite">exqlite</a> package, which is completely embedded into Next LS, so you don't need to have it installed on your machine.</p>
+<p>SQLite3 is super fast and SQL is very familiar to Elixir developers, which makes contributing <em>much</em> easier.</p>
+<p>This point is really driven home by the new Find References feature. Cristian was able to implement this feature in more or less a few hours and the change was <em><strong>purely</strong></em> additive. The diff of the PR was <code>+207, -0</code>.</p>
+<p>It think that is is a testament to the abstractions that have been put in place and the familiarity of using SQL.</p>
+<h2><a href="#coming-soon" aria-hidden="true" class="anchor" id="coming-soon"></a>Coming Soon</h2>
+<p>We have a number of features that are currently in progress, but didn't make the deadline for this Update Vol. 2.</p>
+<ul>
+<li>
+<p><strong>Credo Extension</strong></p>
+<p>The second core extension and the first to provide integration with a library, the Credo extension will include all of the same functionality of <a href="https://github.com/elixir-tools/credo-language-server">Credo Language Server</a>.</p>
+<p><a href="https://github.com/elixir-tools/next-ls/pull/163">PR</a></p>
+</li>
+<li>
+<p>** Go To (Dependency) Definition**</p>
+<p><a href="https://github.com/dvic">Damir</a> has been working on this enhancement, which allows you to follow a definition of a function/module from a dependency into its source code.</p>
+<p><a href="https://github.com/elixir-tools/next-ls/pull/171">PR</a></p>
+</li>
+<li>
+<p><strong>Hover</strong></p>
+<p><a href="https://github.com/sineed">Denis Tataurov</a> has been working on Hover documentation. The recent change to SQLite3 from DETS has caused Denis quite a few merge conflicts 😅. Sorry Denis!</p>
+<p><a href="https://github.com/elixir-tools/next-ls/pull/104">PR</a></p>
+</li>
+</ul>
+<h2><a href="#elixir-toolsnvim-and-elixir-toolsvscode" aria-hidden="true" class="anchor" id="elixir-toolsnvim-and-elixir-toolsvscode"></a>elixir-tools.nvim and elixir-tools.vscode</h2>
+<p>This month most of the updates for the editor plugins were to support new features in Next LS!</p>
+<h3><a href="#download-pre-built-binaries" aria-hidden="true" class="anchor" id="download-pre-built-binaries"></a>Download pre-built binaries</h3>
+<p>Both Nvim and Visual Studio Code will automatically download the correct binary for your operating system and architecture.</p>
+<h3><a href="#nvim" aria-hidden="true" class="anchor" id="nvim"></a>Nvim</h3>
+<ul>
+<li>~ 3,000 clones (estimated, since last update)</li>
+<li>6 releases</li>
+<li>2 contributors (alphabetical order)
+<ul>
+<li><a href="https://github.com/lessthanseventy">Andrew Moore</a></li>
+<li><a href="https://github.com/dkarter">Dorian Karter</a></li>
+</ul>
+</li>
+</ul>
+<h3><a href="#visual-studio-code" aria-hidden="true" class="anchor" id="visual-studio-code"></a>Visual Studio Code</h3>
+<ul>
+<li>932 installs</li>
+<li>5 releases</li>
+<li>2 contributors (alphabetical order)
+<ul>
+<li><a href="https://github.com/sineed">Denis Tataurov</a></li>
+<li><a href="https://github.com/zachallaun">Zach Allaun</a></li>
+</ul>
+</li>
+</ul>
+<h2><a href="#community" aria-hidden="true" class="anchor" id="community"></a>Community</h2>
+<h3><a href="#discord" aria-hidden="true" class="anchor" id="discord"></a>Discord</h3>
+<p>The Discord server has been quite lively lately!</p>
+<p>We currently have 108 members and are getting more every day, come <a href="https://discord.gg/6XdGnxVA2A">join</a> the party!</p>
+<h3><a href="#denver-erlang-and-elixir-meetup" aria-hidden="true" class="anchor" id="denver-erlang-and-elixir-meetup"></a>Denver Erlang and Elixir Meetup</h3>
+<p>This month of had the pleasure of being invited to talk at the Denver Erlang and Elixir meetup by <a href="https://twitter.com/paraxialio">Micheal Lubas</a>.</p>
+<p>There were about 25 people there and I had a ton of fun, you can watch the presentation on <a href="https://www.youtube.com/watch?v=_C7-bZqhv-w">YouTube</a>!</p>
+<h2><a href="#thank-you" aria-hidden="true" class="anchor" id="thank-you"></a>Thank you</h2>
+<p>I'd like to give a huge shout out to all of the contributors, bug reporters, and to all (26!) of my GitHub sponsors! Without the support of all of you, none of this would be possible.</p>
+<h2><a href="#how-to-get-involved" aria-hidden="true" class="anchor" id="how-to-get-involved"></a>How to get involved</h2>
+<p>If you'd like to get involved with elixir-tools, there are several ways:</p>
+<ul>
+<li>Contribute to the project via code on <a href="https://github.com/elixir-tools">GitHub</a></li>
+<li>Contribute to the community via <a href="https://discord.gg/6XdGnxVA2A">Discord</a> or <a href="https://github.com/orgs/elixir-tools/discussions">GitHub</a></li>
+<li>Contribute financially via <a href="https://github.com/sponsors/mhanberg">GitHub Sponsors</a></li>
+</ul>
+<h2><a href="#sponsors" aria-hidden="true" class="anchor" id="sponsors"></a>Sponsors</h2>
+<ul>
+<li><a href="https://github.com/aayushmau5">aayushmau5</a></li>
+<li><a href="https://github.com/akoutmos">akoutmos</a></li>
+<li><a href="https://github.com/andrepaes">andrepaes</a></li>
+<li><a href="https://github.com/baldwindavid">baldwindavid</a></li>
+<li><a href="https://github.com/brettwise">brettwise</a></li>
+<li><a href="https://github.com/chriscrabtree">chriscrabtree</a></li>
+<li><a href="https://github.com/cigrainger">cigrainger</a></li>
+<li><a href="https://github.com/dbernheisel">dbernheisel</a></li>
+<li><a href="https://github.com/dkarter">dkarter</a></li>
+<li><a href="https://github.com/dvic">dvic</a></li>
+<li><a href="https://github.com/dyackson">dyackson</a></li>
+<li><a href="https://github.com/ethangunderson">ethangunderson</a></li>
+<li><a href="https://github.com/jozuas">jozuas</a></li>
+<li><a href="https://github.com/leonqadirie">leonqadirie</a></li>
+<li><a href="https://github.com/mikl">mikl</a></li>
+<li><a href="https://github.com/Nezteb">Nezteb</a></li>
+<li><a href="https://github.com/NFIBrokerage">NFIBrokerage</a></li>
+<li><a href="https://github.com/oestrich">oestrich</a></li>
+<li><a href="https://github.com/PJUllrich">PJUllrich</a></li>
+<li><a href="https://github.com/qdentity">qdentity</a></li>
+<li><a href="https://github.com/RudolfMan">RudolfMan</a></li>
+<li><a href="https://github.com/shenaor">shenaor</a></li>
+<li><a href="https://github.com/simon-wolf">simon-wolf</a></li>
+<li><a href="https://github.com/sorenone">sorenone</a></li>
+<li><a href="https://github.com/sorentwo">sorentwo</a></li>
+<li><a href="https://github.com/zyzyva">zyzyva</a></li>
+</ul>
+<hr />
+<p>I'll see you next month with another update!</p>
+ ]]></description>
+    </item>
+    <item>
+       <title>Introducing Next LS and an elixir-tools update</title>
+       <link>https://http://localhost:4999/news/introducing-next-ls-and-an-elixir-tools-update</link>
+       <pubDate>Wed, 05 Jul 2023 01:00:00 EDT</pubDate>
+       <guid>http://http://localhost:4999/news/introducing-next-ls-and-an-elixir-tools-update</guid>
+       <description><![CDATA[ <p>Since the last we've <a href="https://www.mitchellhanberg.com/credo-language-server-and-the-birth-of-elixir-tools/">talked</a> 78 days ago, a lot has happened. Let's recap!</p>
+<h2><a href="#credo-language-server" aria-hidden="true" class="anchor" id="credo-language-server"></a>Credo Language Server</h2>
+<p><a href="https://github.com/elixir-tools/credo-language-server">Credo Language Server</a> has received a lot of love by users and contributors alike!</p>
+<ul>
+<li>2,474 downloads</li>
+<li>11 releases</li>
+<li>6 contributors (alphabetical order)
+<ul>
+<li><a href="https://github.com/alanvardy">Alan Vardy</a></li>
+<li><a href="https://github.com/CoderDennis">Dennis Palmer</a></li>
+<li><a href="https://github.com/kianmeng">Kian-Meng Ang</a></li>
+<li><a href="https://github.com/iautom8things">Manuel Zubieta</a></li>
+<li><a href="https://github.com/wesleimp">Weslei Juan Novaes Pereira</a></li>
+<li><a href="https://github.com/wkirschbaum">Wilhelm Kirschbaum</a></li>
+</ul>
+</li>
+<li>Emacs integration through <a href="https://github.com/emacs-lsp/lsp-mode/pull/4068">lsp-mode</a> by <a href="https://github.com/wkirschbaum">Wilhelm Kirschbaum</a></li>
+<li>Emacs manual setup through eglot by <a href="https://github.com/wkirschbaum">Wilhelm Kirschbaum</a></li>
+<li><a href="https://helix-editor.com/">Helix</a> manual setup instructions</li>
+<li>New <a href="https://github.com/elixir-tools/credo-language-server/pull/32">isolated architecture</a> that can support more Credo versions and custom and 3rd party checks</li>
+</ul>
+<h2><a href="#elixir-toolsnvim" aria-hidden="true" class="anchor" id="elixir-toolsnvim"></a>elixir-tools.nvim</h2>
+<p>The oldest elixir-tools project, <a href="https://github.com/elixir-tools/elixir-tools.nvim">elixir-tools.nvim</a> is not slowing down!</p>
+<ul>
+<li>~6,000 clones (guess based on GitHub traffic metrics)</li>
+<li>10 releases</li>
+<li>7 contributors (alphabetical order)
+<ul>
+<li><a href="https://github.com/binarytemple">Bryan Hunt</a></li>
+<li><a href="https://github.com/dvic">Damir Vandic</a></li>
+<li><a href="https://github.com/davidelias">David Elias</a></li>
+<li><a href="https://github.com/jswanner">Jacob Swanner</a></li>
+<li><a href="https://github.com/jordelver">Jordan Elver</a></li>
+<li><a href="https://github.com/kianmeng">Kian-Meng Ang</a></li>
+<li><a href="https://github.com/zolrath">Matt Furden</a></li>
+</ul>
+</li>
+<li>Major enhancements to our Projectionist support, work started by <a href="https://github.com/zolrath">Matt Furden</a></li>
+<li>Major enhancements to the test suite</li>
+</ul>
+<h2><a href="#elixir-toolsvscode" aria-hidden="true" class="anchor" id="elixir-toolsvscode"></a>elixir-tools.vscode</h2>
+<p>The baby of the group, <a href="https://github.com/elixir-tools/elixir-tools.vscode">elixir-tools.vscode</a> got some love, but still has a long way to grow up!</p>
+<ul>
+<li>451 installs</li>
+<li>9 releases</li>
+<li>1 contributor (alphabetical order)
+<ul>
+<li><a href="https://github.com/CoderDennis">Dennis Palmer</a></li>
+</ul>
+</li>
+<li>Very grateful for Dennis' work, he setup the entire CI test suite. (the only thing missing are tests! 😆)</li>
+</ul>
+<h2><a href="#emacs" aria-hidden="true" class="anchor" id="emacs"></a>Emacs</h2>
+<p>As mentioned above, <a href="https://github.com/wkirschbaum">Wilhelm Kirschbaum</a> has done a tremendous job getting Credo Language Server and Next LS working with Emacs, even contributing an upstream bug fix to <a href="https://lists.gnu.org/archive/html/bug-gnu-emacs/2023-06/msg01341.html">core emacs</a>!</p>
+<p>There are two primary ways to integrate language servers with Emacs, <a href="https://emacs-lsp.github.io/lsp-mode/">lsp-mode</a> and <a href="https://joaotavora.github.io/eglot/">eglot</a>.</p>
+<p>The former is used by distributions like <a href="https://www.spacemacs.org/">Spacemacs</a> and <a href="https://github.com/doomemacs/">Doom Emacs</a> and is a user land plugin and the latter lives inside the bleeding edge releases of core Emacs.</p>
+<p>Having elixir-tools working with Emacs is no small feat and I am so incredibly grateful for his work, thank you Wilhelm!</p>
+<h2><a href="#sublime-text" aria-hidden="true" class="anchor" id="sublime-text"></a>Sublime Text</h2>
+<p>There hasn't been any public work yet, but a community member has reached out to me about them creating an elixir-tools.sublime plugin for Sublime Text.</p>
+<p>The community outreach (inreach?) with the elixir-tools project has far exceeded my expectations, thank you everyone!</p>
+<h2><a href="#tableau" aria-hidden="true" class="anchor" id="tableau"></a>Tableau</h2>
+<p><a href="https://github.com/elixir-tools/tableau">Tableau</a> hasn't been properly introduced yet, so now is the time!</p>
+<p>Tableau is a static site generator for Elixir that focuses on simplicity. You can use it with whatever template syntax you want (this website is written with <a href="https://github.com/mhanberg/temple">Temple</a>) and you can write whatever kind of extensions you'd like.</p>
+<p>Tableau has existed for a while, but really got an overhaul when it came time to build https://www.elixir-tools.dev.</p>
+<p>The next steps are to upstream the Post and RSS extensions that currently live in the repository for this website, as well as create an SEO extension. Then I can rewrite <a href="https://www.mitchellhanberg.com">my personal website</a> with it!</p>
+<h2><a href="#elixir-toolsdev" aria-hidden="true" class="anchor" id="elixir-toolsdev"></a>elixir-tools.dev</h2>
+<p>This website!</p>
+<p><a href="https://www.elixir-tools.dev">elixir-tools.dev</a> will be the home for elixir-tools news and documentation.</p>
+<p>Built with <a href="https://github.com/elixir-tools/tableau">Tableau</a>, <a href="https://github.com/mhanberg/temple">Temple</a>, and hosted on <a href="https://www.netlify.com/">Netlify</a>.</p>
+<h2><a href="#discord" aria-hidden="true" class="anchor" id="discord"></a>Discord</h2>
+<p>The elixir-tools <a href="https://discord.gg/6XdGnxVA2A">Discord server</a> now has 64 members, and has become a friendly place for folks to chat about Elixir developer tooling.</p>
+<h2><a href="#twitter" aria-hidden="true" class="anchor" id="twitter"></a>Twitter</h2>
+<p>Nothing special here, for completeness, there is now an elixir-tools <a href="https://twitter.com/elixir_tools">Twitter</a> account.</p>
+<h2><a href="#introducing-next-ls" aria-hidden="true" class="anchor" id="introducing-next-ls"></a>Introducing Next LS</h2>
+<p>Next LS is the culmination of over a year of programming, conference talks, blog posts, and community building.</p>
+<p>Next LS is the language server for Elixir that <em>just works.</em></p>
+<h3><a href="#current-features" aria-hidden="true" class="anchor" id="current-features"></a>Current Features</h3>
+<p>With the release of <a href="https://github.com/elixir-tools/next-ls/releases/tag/v0.5.0">v0.5</a> (the 15th release!), Next LS supports the following features (with <a href="https://github.com/elixir-tools/next-ls/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement">many more</a> on the way!):</p>
+<ul>
+<li>Compiler Diagnostics (<a href="/next-ls#compiler-diagnostics">docs</a>)</li>
+<li>Code Formatting (<a href="/next-ls#code-formatting">docs</a>)</li>
+<li>Workspace Symbols (<a href="/next-ls#workspace-symbols">docs</a>)</li>
+<li>Document Symbols (<a href="/next-ls#document-symbols">docs</a>)</li>
+<li>Go To Definition (<a href="/next-ls#definition">docs</a>)</li>
+</ul>
+<h3><a href="#editor-integrations" aria-hidden="true" class="anchor" id="editor-integrations"></a>Editor Integrations</h3>
+<p>Next LS is currently supported by the following editors:</p>
+<ul>
+<li>Neovim (via <a href="https://github.com/elixir-tools/elixir-tools.nvim">elixir-tools.nvim</a>)</li>
+<li>Visual Studio Code (via <a href="https://github.com/elixir-tools/elixir-tools.vscode">elixir-tools.vscode</a>)</li>
+<li>Vim (manually via plugins like <a href="https://github.com/neoclide/coc.nvim">CoC</a> and <a href="https://github.com/dense-analysis/ale">ALE</a>)</li>
+<li>Emacs (manually via <a href="https://github.com/elixir-tools/next-ls#editor-support">eglot</a>)</li>
+</ul>
+<h3><a href="#ready-for-early-adopters" aria-hidden="true" class="anchor" id="ready-for-early-adopters"></a>Ready for early adopters</h3>
+<p>The purpose of this announcement is to declare that Next LS is <strong>ready for early adopters!</strong></p>
+<p>Next LS hasn't reached feature parity with <a href="https://github.com/elixir-lsp/elixir-ls">Elixir LS</a>, so I don't expect the majority of Elixir developers to switch just yet. But I believe it has developed enough for those who like to live on the bleeding edge and aren't satisfied with their current experience.</p>
+<p>There will be bugs, and the more people that are using it for their daily work, the faster the kinks will iron out and bring more momentum to the project.</p>
+<p>If you have ideas for features or want to contribute, feel absolutely free to check out the GitHub repository!</p>
+<h3><a href="#how-to-get-started" aria-hidden="true" class="anchor" id="how-to-get-started"></a>How to get started</h3>
+<p>If you would like to try out Next LS, please check out one of the 1st party elixir-tools editor plugins (elixir-tools.nvim and elixir-tools.vscode) or read the <a href="https://github.com/elixir-tools/next-ls#editor-support">manual setup instructions</a>.</p>
+<p>With the 1st party integrations, you won't need to install Next LS separately, but when manually setting it up, you will need to download the script that is included in the GitHub release page.</p>
+<h3><a href="#what-is-next-for-next-ls" aria-hidden="true" class="anchor" id="what-is-next-for-next-ls"></a>What is next for Next LS</h3>
+<p>I will be tackling the following next:</p>
+<ul>
+<li>Hardening the internal symbol table (will improve Workspace Symbols and Go To Definition)</li>
+<li>Find References (basically the inverse of Go To Definition)</li>
+<li>Credo Extension (will pave the way for the Dialyzer, Ecto, Phoenix extensions)
+<ul>
+<li>effectively deprecates Credo Language Server for those who use Next LS</li>
+</ul>
+</li>
+</ul>
+<p>If you have a feature that you'd like to see sooner, let me know!</p>
+<h2><a href="#thank-you" aria-hidden="true" class="anchor" id="thank-you"></a>Thank you</h2>
+<p>I'd like to give a huge shout out to all of the contributors, bug reporters, and to all (22!) of my GitHub sponsors! Without the support of all of you, none of this would be possible.</p>
+<h2><a href="#how-to-get-involved" aria-hidden="true" class="anchor" id="how-to-get-involved"></a>How to get involved</h2>
+<p>If you'd like to get involved with elixir-tools, there are several ways:</p>
+<ul>
+<li>Contribute to the project via code on <a href="https://github.com/elixir-tools">GitHub</a></li>
+<li>Contribute to the community via <a href="https://discord.gg/6XdGnxVA2A">Discord</a> or <a href="https://github.com/orgs/elixir-tools/discussions">GitHub</a></li>
+<li>Contribute financially via <a href="https://github.com/sponsors/mhanberg">GitHub Sponsors</a></li>
+</ul>
+<hr />
+<p>I'll see you next month with another update!</p>
+ ]]></description>
+    </item>
+  </channel>
+</rss>
