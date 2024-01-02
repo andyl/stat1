@@ -22,7 +22,7 @@ defmodule ElixirTools.MixProject do
 
   def aliases() do
     [
-      build: ["tableau.build", "tailwind default --minify"],
+      build: ["tableau.build", "tailwind default --minify", "deploy"],
       serve: ["tableau.server"]
     ]
   end
