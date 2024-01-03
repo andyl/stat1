@@ -3,9 +3,9 @@ defmodule ElixirTools.MixProject do
 
   def project do
     [
-      app: :elixir_tools,
+      app: :temple_demo,
       version: "0.1.0",
-      elixir: "~> 1.13",
+      elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       compilers: [:temple] ++ Mix.compilers(),
@@ -13,7 +13,6 @@ defmodule ElixirTools.MixProject do
     ]
   end
 
-  # Run "mix help compile.app" to learn about applications.
   def application do
     [
       extra_applications: [:telemetry, :logger]
@@ -27,7 +26,6 @@ defmodule ElixirTools.MixProject do
     ]
   end
 
-  # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
       {:tableau, "~> 0.12"},

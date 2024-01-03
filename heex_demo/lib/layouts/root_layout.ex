@@ -7,7 +7,7 @@ defmodule TableauDemoHeex.RootLayout do
     <!DOCTYPE HTML>
     <html>
       <head>
-        <title>Tableau EEx Demo</title>
+        <title>Tableau HEEX Demo</title>
       </head>
       <body>
         <%= render(@inner_content) %>
