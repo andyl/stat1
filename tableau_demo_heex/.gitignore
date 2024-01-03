@@ -24,4 +24,3 @@ tableau_demo_heex-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
-_site
