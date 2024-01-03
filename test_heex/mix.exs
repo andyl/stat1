@@ -14,7 +14,7 @@ defmodule TableauDemoHeex.MixProject do
 
   def application do
     [
-      extra_applications: [:telemetry, :logger]
+      extra_applications: [:logger]
     ]
   end
 

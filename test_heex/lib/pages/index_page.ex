@@ -12,7 +12,7 @@ defmodule TableauDemoHeex.IndexPage do
 
   def banner(assigns) do
     ~H"""
-    <p>
+    <p class="font-bold text-red-500">
       Welcome to your first Tableau Site!
     </p>
     """

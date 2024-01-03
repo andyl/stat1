@@ -8,6 +8,7 @@ defmodule TableauDemoHeex.RootLayout do
     <html>
       <head>
         <title>Tableau HEEX Demo</title>
+        <link rel="stylesheet" type="text/css" href="css/site.css">
       </head>
       <body>
         <%= render(@inner_content) %>
