@@ -1,7 +1,7 @@
 ---
 title: "The 2023 elixir-tools Update (Vol. 5)"
 permalink: "/news/:title"
-date: "~N[2023-12-26 01:00:00]"
+date: "2023-12-26"
 layout: "ElixirTools.PostLayout"
 ---
 
