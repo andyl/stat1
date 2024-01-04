@@ -8,14 +8,15 @@ defmodule TableauDemoHeex.DocLayout do
     <html>
       <head>
         <title>HEEX Demo Doc</title>
-        <link rel="stylesheet" type="text/css" href="css/site.css">
+        <link rel="stylesheet" type="text/css" href="/css/site.css">
       </head>
       <body>
-        Some text should go here!
         <%= render(@inner_content) %>
       </body>
     </html>
     """
     |> Phoenix.HTML.Safe.to_iodata()
+    |> IO.iodata_to_binary()
+    |> HtmlEntities.decode()
   end
 end

@@ -29,6 +29,7 @@ defmodule TableauDemoHeex.MixProject do
     [
       {:tableau, "~> 0.12"},
       {:phoenix_live_view, "~> 0.20"},
+      {:html_entities, "~> 0.5"},
       {:floki, "~> 0.34"},
       {:tailwind, "~> 0.2", runtime: Mix.env() == :dev}
     ]
