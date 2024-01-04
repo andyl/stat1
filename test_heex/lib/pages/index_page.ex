@@ -15,6 +15,9 @@ defmodule TableauDemoHeex.IndexPage do
     <p class="font-bold text-red-500">
       Welcome to your first Tableau Site!
     </p>
+    <p class="font-bold">
+    <a href="/test1">TEST1</a>
+    </p>
     """
   end
 end
