@@ -1,5 +1,5 @@
 defmodule Xmeyers.MapPage do
-  use Tableau.Page, layout: Xmeyers.RootLayout, permalink: "/map"
+  use Tableau.Page, layout: Xmeyers.RootLayout, permalink: "/maps"
   use Phoenix.Component
 
   def template(assigns) do
@@ -14,7 +14,7 @@ defmodule Xmeyers.MapPage do
     <div class="p-4 grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
       <%= for card <- @cards do %>
         <div class="relative border border-gray-300 rounded-lg shadow-sm space-x-3">
-          <div class="px-4 bg-blue-100 border-gray-200 rounded-t-lg">
+          <div class="px-4 bg-green-100 border-gray-200 rounded-t-lg">
             <%= card.title %>
           </div>
 

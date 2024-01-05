@@ -60,8 +60,13 @@ Phase 3 - TABLEAU
 - [x] Build home and map pages 
 - [x] Add XMEYERS header
 - [x] Fix favicon 
-- [ ] Write `Tableau.Card` extension
-- [ ] Ingest and render card data 
+- [x] Write `Tableau.Card` extension
+- [x] Ingest and render card data 
+
+- [ ] Fix location-prefix problem 
+- [ ] Link to PDF maps
+
+- [ ] Fix formatting 
 - [ ] Push to Github Pages 
 - [ ] Extract Tableau.Card to standalone repo 
 - [ ] Fix live-reload tag

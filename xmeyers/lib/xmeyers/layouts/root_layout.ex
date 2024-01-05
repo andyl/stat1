@@ -24,13 +24,16 @@ defmodule Xmeyers.RootLayout do
                 class="inline align-middle"
                 style="padding-bottom: 3px;"
                 src="/static/img/mountain-15-32.png"
-              /> Xmeyers
+              /> XmeyersX
             </div>
           </div>
           <div class="flex mt-4 md:mt-0 md:ml-4"></div>
         </div>
         <%= render(@inner_content) %>
       </body>
+      <%= if Mix.env() == :dev do %>
+        <%= Tableau.live_reload(assigns) %>
+      <% end %>
     </html>
     """
     |> Phoenix.HTML.Safe.to_iodata()
