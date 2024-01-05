@@ -63,9 +63,12 @@ Phase 3 - TABLEAU
 - [x] Write `Tableau.Card` extension
 - [x] Ingest and render card data 
 - [x] Fix location-prefix problem 
-- [ ] Link to PDF maps
+- [x] Link to PDF maps
+
+## 2024 Jan 05 Fri
 
 - [ ] Fix formatting 
-- [ ] Push to Github Pages 
+- [ ] Push to Github Pages in Xmeyers
+
 - [ ] Extract Tableau.Card to standalone repo 
 - [ ] Fix live-reload tag
