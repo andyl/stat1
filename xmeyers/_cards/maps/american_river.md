@@ -6,6 +6,6 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/PyramidPeak.pdf">PyramidPeak</a> 
+<a target="_blank" href="/stat1/static/maps/PyramidPeak.pdf">PyramidPeak</a> 
 
-<a target="_blank" href="/xmeyers/maps/RalstonPeak.pdf">RalstonPeak</a> 
+<a target="_blank" href="/stat1/static/maps/RalstonPeak.pdf">RalstonPeak</a> 

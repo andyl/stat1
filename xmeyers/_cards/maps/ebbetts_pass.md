@@ -6,7 +6,7 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/HighlandLakes.pdf">HighlandLakes</a> 
+<a target="_blank" href="/stat1/static/maps/HighlandLakes.pdf">HighlandLakes</a> 
 
-<a target="_blank" href="/xmeyers/maps/WolfCreek.pdf">WolfCreek</a> 
+<a target="_blank" href="/stat1/static/maps/WolfCreek.pdf">WolfCreek</a> 
 

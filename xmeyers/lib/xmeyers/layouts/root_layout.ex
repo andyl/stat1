@@ -8,8 +8,8 @@ defmodule Xmeyers.RootLayout do
     <html>
       <head>
         <title>XMEYERS</title>
-        <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" type="text/css" href="/css/site.css" />
+        <link rel="icon" href="/stat1/static/img/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="/stat1/css/site.css" />
         <style>
           a { color: blue; }
           a:hover { text-decoration: underline; }
@@ -23,7 +23,7 @@ defmodule Xmeyers.RootLayout do
               <img
                 class="inline align-middle"
                 style="padding-bottom: 3px;"
-                src="/static/img/mountain-15-32.png"
+                src="/stat1/static/img/mountain-15-32.png"
               /> XmeyersX
             </div>
           </div>

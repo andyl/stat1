@@ -6,11 +6,11 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/CraterLake.pdf">CraterLake</a> 
+<a target="_blank" href="/stat1/static/maps/CraterLake.pdf">CraterLake</a> 
 
-<a target="_blank" href="/xmeyers/maps/HawkinsPeak.pdf">HawkinsPeak</a> 
+<a target="_blank" href="/stat1/static/maps/HawkinsPeak.pdf">HawkinsPeak</a> 
 
-<a target="_blank" href="/xmeyers/maps/PickettPeak.pdf">PickettPeak</a> 
+<a target="_blank" href="/stat1/static/maps/PickettPeak.pdf">PickettPeak</a> 
 
-<a target="_blank" href="/xmeyers/maps/StevensPeak.pdf">StevensPeak</a> 
+<a target="_blank" href="/stat1/static/maps/StevensPeak.pdf">StevensPeak</a> 
 

@@ -12,5 +12,5 @@ Each map is a Geospatial PDF file, generated with <a href="https://caltopo.com">
 
 Use the maps to navigate using your phone with <a href="https://www.avenzamaps.com">Avenza</a>.
 
-<small><a href="/xmeyers">back to main page</a></small>
+<small><a href="/stat1">back to main page</a></small>
 

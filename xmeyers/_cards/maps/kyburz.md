@@ -6,7 +6,7 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/SilverforkRoad.pdf">SilverforkRoad</a> 
+<a target="_blank" href="/stat1/static/maps/SilverforkRoad.pdf">SilverforkRoad</a> 
 
-<a target="_blank" href="/xmeyers/maps/WrightsLake.pdf">WrightsLake</a> 
+<a target="_blank" href="/stat1/static/maps/WrightsLake.pdf">WrightsLake</a> 
 

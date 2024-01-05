@@ -6,9 +6,9 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/K2Sierra.pdf">K2Sierra</a> 
+<a target="_blank" href="/stat1/static/maps/K2Sierra.pdf">K2Sierra</a> 
 
-<a target="_blank" href="/xmeyers/maps/ScoutPeak.pdf">ScoutPeak</a> 
+<a target="_blank" href="/stat1/static/maps/ScoutPeak.pdf">ScoutPeak</a> 
 
-<a target="_blank" href="/xmeyers/maps/SierraRidge.pdf">SierraRidge</a> 
+<a target="_blank" href="/stat1/static/maps/SierraRidge.pdf">SierraRidge</a> 
 

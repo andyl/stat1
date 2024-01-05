@@ -27,7 +27,8 @@ defmodule Xmeyers.MixProject do
 
   defp deps do
     [
-      {:tableau, "~> 0.12"},
+      # {:tableau, "~> 0.12"},
+      {:tableau, path: "~/zz/tableau"},
       {:phoenix_live_view, "~> 0.20"},
       {:html_entities, "~> 0.5"},
       {:floki, "~> 0.34"},

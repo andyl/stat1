@@ -1,7 +1,8 @@
 import Config
 
 config :tableau, :config,
-  url: "http://localhost:4999/stat1",
+  url: "http://localhost:4999",
+  base_path: "stat1",
   markdown: [
     mdex: [
       extension: [table: true, header_ids: "", tasklist: true, strikethrough: true],

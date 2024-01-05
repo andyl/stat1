@@ -6,13 +6,13 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/AngoraLakes.pdf">AngoraLakes</a> 
+<a target="_blank" href="/stat1/static/maps/AngoraLakes.pdf">AngoraLakes</a> 
 
-<a target="_blank" href="/xmeyers/maps/AngoraPeak.pdf">AngoraPeak</a> 
+<a target="_blank" href="/stat1/static/maps/AngoraPeak.pdf">AngoraPeak</a> 
 
-<a target="_blank" href="/xmeyers/maps/EchoLakes.pdf">EchoLakes</a> 
+<a target="_blank" href="/stat1/static/maps/EchoLakes.pdf">EchoLakes</a> 
 
-<a target="_blank" href="/xmeyers/maps/EchoBowl.pdf">EchoBowl</a> 
+<a target="_blank" href="/stat1/static/maps/EchoBowl.pdf">EchoBowl</a> 
 
-<a target="_blank" href="/xmeyers/maps/FlagpolePeak.pdf">FlagpolePeak</a> 
+<a target="_blank" href="/stat1/static/maps/FlagpolePeak.pdf">FlagpolePeak</a> 
 

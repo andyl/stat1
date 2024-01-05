@@ -6,12 +6,12 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/LutherSpires.pdf">LutherSpires</a> 
+<a target="_blank" href="/stat1/static/maps/LutherSpires.pdf">LutherSpires</a> 
 
-<a target="_blank" href="/xmeyers/maps/RoundLakeLuther.pdf">RoundLakeLuther</a> 
+<a target="_blank" href="/stat1/static/maps/RoundLakeLuther.pdf">RoundLakeLuther</a> 
 
-<a target="_blank" href="/xmeyers/maps/WaterhousePeak.pdf">WaterhousePeak</a> 
+<a target="_blank" href="/stat1/static/maps/WaterhousePeak.pdf">WaterhousePeak</a> 
 
-<a target="_blank" href="/xmeyers/maps/WillowCreek.pdf">WillowCreek</a> 
+<a target="_blank" href="/stat1/static/maps/WillowCreek.pdf">WillowCreek</a> 
 
 

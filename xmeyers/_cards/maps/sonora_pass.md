@@ -6,6 +6,6 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/FS32062.pdf">FS32062</a> 
+<a target="_blank" href="/stat1/static/maps/FS32062.pdf">FS32062</a> 
 
-<a target="_blank" href="/xmeyers/maps/LeavittLake.pdf">LeavittLake</a> 
+<a target="_blank" href="/stat1/static/maps/LeavittLake.pdf">LeavittLake</a> 

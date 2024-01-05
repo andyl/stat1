@@ -62,8 +62,7 @@ Phase 3 - TABLEAU
 - [x] Fix favicon 
 - [x] Write `Tableau.Card` extension
 - [x] Ingest and render card data 
-
-- [ ] Fix location-prefix problem 
+- [x] Fix location-prefix problem 
 - [ ] Link to PDF maps
 
 - [ ] Fix formatting 

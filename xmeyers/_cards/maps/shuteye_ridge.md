@@ -6,6 +6,6 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/Shuteye6S42.pdf">Shuteye6S42</a> 
+<a target="_blank" href="/stat1/static/maps/Shuteye6S42.pdf">Shuteye6S42</a> 
 
-<a target="_blank" href="/xmeyers/maps/Shuteye8007.pdf">Shuteye8007</a> 
+<a target="_blank" href="/stat1/static/maps/Shuteye8007.pdf">Shuteye8007</a> 

@@ -6,7 +6,7 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/LeeViningCanyon.pdf">LeeViningCanyon</a> 
+<a target="_blank" href="/stat1/static/maps/LeeViningCanyon.pdf">LeeViningCanyon</a> 
 
-<a target="_blank" href="/xmeyers/maps/LeeViningPowerplant.pdf">LeeViningPowerplant</a> 
+<a target="_blank" href="/stat1/static/maps/LeeViningPowerplant.pdf">LeeViningPowerplant</a> 
 

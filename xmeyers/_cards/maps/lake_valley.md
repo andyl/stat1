@@ -6,10 +6,10 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/LakeValley.pdf">LakeValley</a> 
+<a target="_blank" href="/stat1/static/maps/LakeValley.pdf">LakeValley</a> 
 
-<a target="_blank" href="/xmeyers/maps/OsgoodSwamp.pdf">OsgoodSwamp</a> 
+<a target="_blank" href="/stat1/static/maps/OsgoodSwamp.pdf">OsgoodSwamp</a> 
 
-<a target="_blank" href="/xmeyers/maps/SaxonCreek.pdf">SaxonCreek</a> 
+<a target="_blank" href="/stat1/static/maps/SaxonCreek.pdf">SaxonCreek</a> 
 
-<a target="_blank" href="/xmeyers/maps/WashoeMeadows.pdf">WashoeMeadows</a> 
+<a target="_blank" href="/stat1/static/maps/WashoeMeadows.pdf">WashoeMeadows</a> 
