@@ -5,8 +5,10 @@
     <link rel="icon" href="/stat1/static/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="/stat1/css/site.css">
     <style>
-      a { color: blue; }
+      a { color: blue; text-decoration: none; font-weight: normal; }
       a:hover { text-decoration: underline; }
+      ul, ol { list-style-type: none; }
+      li { padding-left: 0; margin-left: 0; }
     </style>
   </head>
 
@@ -14,7 +16,7 @@
     <div class="px-3 bg-gray-100 md:flex md:items-center md:justify-between">
       <div class="flex-1 min-w-0">
         <div class="text-2xl text-gray-900 leading-7 sm:text-3xl sm:truncate">
-          <img class="inline align-middle" style="padding-bottom: 3px;" src="/stat1/static/img/mountain-15-32.png"> XmeyersX
+          <img class="inline align-middle" style="padding-bottom: 3px;" src="/stat1/static/img/mountain-15-32.png"> Xmeyers
         </div>
       </div>
       <div class="flex mt-4 md:mt-0 md:ml-4"></div>
@@ -149,11 +151,11 @@ input:hover {
 </form>
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
 <input name="roadnumber" type="hidden" value="88">
-<input type="submit" value="Highway 88 (Kirkwood <> Woodfords <> Minden)" name="submit">
+<input type="submit" value="Highway 88 (Kirkwood <> Woodfords)" name="submit">
 </form>
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
 <input name="roadnumber" type="hidden" value="4">
-<input type="submit" value="Highway 4 (M'ville <> Ebbetts Pass <> Bear Valley)" name="submit">
+<input type="submit" value="Highway 4 (M'ville <> Ebbetts Pass)" name="submit">
 </form>
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
 <input name="roadnumber" type="hidden" value="395">
@@ -181,7 +183,7 @@ input:hover {
 <p><a target="_blank" href="https://github.com/andyl/xmeyers">Website Source</a></p>
 <p><a target="_blank" href="https://github.com/andyl/xmeyers/issues">Feedback &amp; Requests</a></p>
 <p>Other</p>
-<p><a target="_blank" href="/stat1/maps/">Sierra Maps 2</a></p>
+<p><a target="_blank" href="/stat1/maps/">Sierra Maps</a></p>
 <a target="_blank" href="https://www.sierraattahoe.com/live-cams/">
   Sierra at Tahoe Webcams
 </a>

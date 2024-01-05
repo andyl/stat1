@@ -30,12 +30,12 @@ input:hover {
 
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
 <input name="roadnumber" type="hidden" value="88">
-<input type="submit" value="Highway 88 (Kirkwood <> Woodfords <> Minden)" name="submit">
+<input type="submit" value="Highway 88 (Kirkwood <> Woodfords)" name="submit">
 </form>
 
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
 <input name="roadnumber" type="hidden" value="4">
-<input type="submit" value="Highway 4 (M'ville <> Ebbetts Pass <> Bear Valley)" name="submit">
+<input type="submit" value="Highway 4 (M'ville <> Ebbetts Pass)" name="submit">
 </form>
 
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">

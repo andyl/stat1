@@ -11,8 +11,10 @@ defmodule Xmeyers.RootLayout do
         <link rel="icon" href="/stat1/static/img/favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="/stat1/css/site.css" />
         <style>
-          a { color: blue; }
+          a { color: blue; text-decoration: none; font-weight: normal; }
           a:hover { text-decoration: underline; }
+          ul, ol { list-style-type: none; }
+          li { padding-left: 0; margin-left: 0; }
         </style>
       </head>
 
@@ -24,7 +26,7 @@ defmodule Xmeyers.RootLayout do
                 class="inline align-middle"
                 style="padding-bottom: 3px;"
                 src="/stat1/static/img/mountain-15-32.png"
-              /> XmeyersX
+              /> Xmeyers
             </div>
           </div>
           <div class="flex mt-4 md:mt-0 md:ml-4"></div>

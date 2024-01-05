@@ -69,6 +69,9 @@ Phase 3 - TABLEAU
 
 - [ ] Fix formatting 
 - [ ] Push to Github Pages in Xmeyers
+- [ ] Add page tracker in Xmeyers repo 
 
 - [ ] Extract Tableau.Card to standalone repo 
+- [ ] Make PR for Tableau README update
+
 - [ ] Fix live-reload tag
